@@ -1,0 +1,8697 @@
+# this file maps snmp sysobjid fields
+# to the vendor, hardwaretype and python napalm os driver
+
+sysobjid_map:
+# CISCO
+  1.3.6.1.4.1.9.1.1:
+    hwtype: ciscoGatewayServer
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2:
+    hwtype: ciscoTerminalServer
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.3:
+    hwtype: ciscoTrouter
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.4:
+    hwtype: ciscoProtocolTranslator
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.5:
+    hwtype: ciscoIGS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.6:
+    hwtype: cisco3000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.7:
+    hwtype: cisco4000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.8:
+    hwtype: cisco7000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.9:
+    hwtype: ciscoCS500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.10:
+    hwtype: cisco2000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.11:
+    hwtype: ciscoAGSplus
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.12:
+    hwtype: cisco7010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.13:
+    hwtype: cisco2500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.14:
+    hwtype: cisco4500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.15:
+    hwtype: cisco2102
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.16:
+    hwtype: cisco2202
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.17:
+    hwtype: cisco2501
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.18:
+    hwtype: cisco2502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.19:
+    hwtype: cisco2503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.20:
+    hwtype: cisco2504
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.21:
+    hwtype: cisco2505
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.22:
+    hwtype: cisco2506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.23:
+    hwtype: cisco2507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.24:
+    hwtype: cisco2508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.25:
+    hwtype: cisco2509
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.26:
+    hwtype: cisco2510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.27:
+    hwtype: cisco2511
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.28:
+    hwtype: cisco2512
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.29:
+    hwtype: cisco2513
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.30:
+    hwtype: cisco2514
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.31:
+    hwtype: cisco2515
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.32:
+    hwtype: cisco3101
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.33:
+    hwtype: cisco3102
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.34:
+    hwtype: cisco3103
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.35:
+    hwtype: cisco3104
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.36:
+    hwtype: cisco3202
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.37:
+    hwtype: cisco3204
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.38:
+    hwtype: ciscoAccessProRC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.39:
+    hwtype: ciscoAccessProEC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.40:
+    hwtype: cisco1000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.41:
+    hwtype: cisco1003
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.42:
+    hwtype: cisco2516
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.43:
+    hwtype: cisco1020
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.44:
+    hwtype: cisco1004
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.45:
+    hwtype: cisco7507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.46:
+    hwtype: cisco7513
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.47:
+    hwtype: cisco7506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.48:
+    hwtype: cisco7505
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.49:
+    hwtype: cisco1005
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.50:
+    hwtype: cisco4700
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.51:
+    hwtype: ciscoPro1003
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.52:
+    hwtype: ciscoPro1004
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.53:
+    hwtype: ciscoPro1005
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.54:
+    hwtype: ciscoPro1020
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.55:
+    hwtype: ciscoPro2500PCE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.56:
+    hwtype: ciscoPro2501
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.57:
+    hwtype: ciscoPro2503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.58:
+    hwtype: ciscoPro2505
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.59:
+    hwtype: ciscoPro2507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.60:
+    hwtype: ciscoPro2509
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.61:
+    hwtype: ciscoPro2511
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.62:
+    hwtype: ciscoPro2514
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.63:
+    hwtype: ciscoPro2516
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.64:
+    hwtype: ciscoPro2519
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.65:
+    hwtype: ciscoPro2521
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.66:
+    hwtype: ciscoPro4500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.67:
+    hwtype: cisco2517
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.68:
+    hwtype: cisco2518
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.69:
+    hwtype: cisco2519
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.70:
+    hwtype: cisco2520
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.71:
+    hwtype: cisco2521
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.72:
+    hwtype: cisco2522
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.73:
+    hwtype: cisco2523
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.74:
+    hwtype: cisco2524
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.75:
+    hwtype: cisco2525
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.76:
+    hwtype: ciscoPro751
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.77:
+    hwtype: ciscoPro752
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.78:
+    hwtype: ciscoPro753
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.79:
+    hwtype: ciscoPro901
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.80:
+    hwtype: ciscoPro902
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.81:
+    hwtype: cisco751
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.82:
+    hwtype: cisco752
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.83:
+    hwtype: cisco753
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.84:
+    hwtype: ciscoPro741
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.85:
+    hwtype: ciscoPro742
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.86:
+    hwtype: ciscoPro743
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.87:
+    hwtype: ciscoPro744
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.88:
+    hwtype: ciscoPro761
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.89:
+    hwtype: ciscoPro762
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.90:
+    hwtype: ciscoPro763
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.91:
+    hwtype: ciscoPro764
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.92:
+    hwtype: ciscoPro765
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.93:
+    hwtype: ciscoPro766
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.94:
+    hwtype: cisco741
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.95:
+    hwtype: cisco742
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.96:
+    hwtype: cisco743
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.97:
+    hwtype: cisco744
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.98:
+    hwtype: cisco761
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.99:
+    hwtype: cisco762
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.100:
+    hwtype: cisco763
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.101:
+    hwtype: cisco764
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.102:
+    hwtype: cisco765
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.103:
+    hwtype: cisco766
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.104:
+    hwtype: ciscoPro2520
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.105:
+    hwtype: ciscoPro2522
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.106:
+    hwtype: ciscoPro2524
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.107:
+    hwtype: ciscoLS1010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.108:
+    hwtype: cisco7206
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.109:
+    hwtype: ciscoAS5200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.110:
+    hwtype: cisco3640
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.111:
+    hwtype: ciscoCatalyst3500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.112:
+    hwtype: ciscoWSX3011
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.113:
+    hwtype: cisco1601
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.114:
+    hwtype: cisco1602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.115:
+    hwtype: cisco1603
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.116:
+    hwtype: cisco1604
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.117:
+    hwtype: ciscoPro1601
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.118:
+    hwtype: ciscoPro1602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.119:
+    hwtype: ciscoPro1603
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.120:
+    hwtype: ciscoPro1604
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.121:
+    hwtype: ciscoWSX5301
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.122:
+    hwtype: cisco3620
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.123:
+    hwtype: ciscoPro3620
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.124:
+    hwtype: ciscoPro3640
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.125:
+    hwtype: cisco7204
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.126:
+    hwtype: cisco771
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.127:
+    hwtype: cisco772
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.128:
+    hwtype: cisco775
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.129:
+    hwtype: cisco776
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.130:
+    hwtype: ciscoPro2502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.131:
+    hwtype: ciscoPro2504
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.132:
+    hwtype: ciscoPro2506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.133:
+    hwtype: ciscoPro2508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.134:
+    hwtype: ciscoPro2510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.135:
+    hwtype: ciscoPro2512
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.136:
+    hwtype: ciscoPro2513
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.137:
+    hwtype: ciscoPro2515
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.138:
+    hwtype: ciscoPro2517
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.139:
+    hwtype: ciscoPro2518
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.140:
+    hwtype: ciscoPro2523
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.141:
+    hwtype: ciscoPro2525
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.142:
+    hwtype: ciscoPro4700
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.147:
+    hwtype: ciscoPro316T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.148:
+    hwtype: ciscoPro316C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.149:
+    hwtype: ciscoPro3116
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.150:
+    hwtype: catalyst116T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.151:
+    hwtype: catalyst116C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.152:
+    hwtype: catalyst1116
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.153:
+    hwtype: ciscoAS2509RJ
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.154:
+    hwtype: ciscoAS2511RJ
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.157:
+    hwtype: ciscoMC3810
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.160:
+    hwtype: cisco1503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.161:
+    hwtype: cisco1502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.162:
+    hwtype: ciscoAS5300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.164:
+    hwtype: ciscoLS1015
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.165:
+    hwtype: cisco2501FRADFX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.166:
+    hwtype: cisco2501LANFRADFX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.167:
+    hwtype: cisco2502LANFRADFX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.168:
+    hwtype: ciscoWSX5302
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.169:
+    hwtype: ciscoFastHub216T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.170:
+    hwtype: catalyst2908xl
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.171:
+    hwtype: catalyst2916m-xl
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.172:
+    hwtype: cisco1605
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.173:
+    hwtype: cisco12012
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.175:
+    hwtype: catalyst1912C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.176:
+    hwtype: ciscoMicroWebServer2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.177:
+    hwtype: ciscoFastHubBMMTX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.178:
+    hwtype: ciscoFastHubBMMFX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.179:
+    hwtype: ciscoUBR7246
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.180:
+    hwtype: cisco6400
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.181:
+    hwtype: cisco12004
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.182:
+    hwtype: cisco12008
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.183:
+    hwtype: catalyst2924XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.184:
+    hwtype: catalyst2924CXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.185:
+    hwtype: cisco2610
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.186:
+    hwtype: cisco2611
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.187:
+    hwtype: cisco2612
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.188:
+    hwtype: ciscoAS5800
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.189:
+    hwtype: ciscoSC3640
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.190:
+    hwtype: cisco8510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.191:
+    hwtype: ciscoUBR904
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.192:
+    hwtype: cisco6200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.194:
+    hwtype: cisco7202
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.195:
+    hwtype: cisco2613
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.196:
+    hwtype: cisco8515
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.197:
+    hwtype: catalyst9006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.198:
+    hwtype: catalyst9009
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.199:
+    hwtype: ciscoRPM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.200:
+    hwtype: cisco1710
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.201:
+    hwtype: cisco1720
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.202:
+    hwtype: catalyst8540msr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.203:
+    hwtype: catalyst8540csr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.204:
+    hwtype: cisco7576
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.205:
+    hwtype: cisco3660
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.206:
+    hwtype: cisco1401
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.208:
+    hwtype: cisco2620
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.209:
+    hwtype: cisco2621
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.210:
+    hwtype: ciscoUBR7223
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.211:
+    hwtype: cisco6400Nrp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.212:
+    hwtype: cisco801
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.213:
+    hwtype: cisco802
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.214:
+    hwtype: cisco803
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.215:
+    hwtype: cisco804
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.216:
+    hwtype: cisco1750
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.217:
+    hwtype: catalyst2924XLv
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.218:
+    hwtype: catalyst2924CXLv
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.219:
+    hwtype: catalyst2912XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.220:
+    hwtype: catalyst2924MXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.221:
+    hwtype: catalyst2912MfXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.222:
+    hwtype: cisco7206VXR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.223:
+    hwtype: cisco7204VXR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.224:
+    hwtype: cisco1538M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.225:
+    hwtype: cisco1548M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.226:
+    hwtype: ciscoFasthub100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.227:
+    hwtype: ciscoPIXFirewall
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.228:
+    hwtype: ciscoMGX8850
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.229:
+    hwtype: ciscoMGX8830
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.230:
+    hwtype: catalyst8510msr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.231:
+    hwtype: catalyst8515msr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.232:
+    hwtype: ciscoIGX8410
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.233:
+    hwtype: ciscoIGX8420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.234:
+    hwtype: ciscoIGX8430
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.235:
+    hwtype: ciscoIGX8450
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.237:
+    hwtype: ciscoBPX8620
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.238:
+    hwtype: ciscoBPX8650
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.239:
+    hwtype: ciscoBPX8680
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.240:
+    hwtype: ciscoCacheEngine
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.241:
+    hwtype: ciscoCat6000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.242:
+    hwtype: ciscoBPXSes
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.243:
+    hwtype: ciscoIGXSes
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.244:
+    hwtype: ciscoLocalDirector
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.245:
+    hwtype: cisco805
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.246:
+    hwtype: catalyst3508GXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.247:
+    hwtype: catalyst3512XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.248:
+    hwtype: catalyst3524XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.249:
+    hwtype: cisco1407
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.250:
+    hwtype: cisco1417
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.251:
+    hwtype: cisco6100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.252:
+    hwtype: cisco6130
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.253:
+    hwtype: cisco6260
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.254:
+    hwtype: ciscoOpticalRegenerator
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.255:
+    hwtype: ciscoUBR924
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.256:
+    hwtype: ciscoWSX6302Msm
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.257:
+    hwtype: catalyst5kRsfc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.258:
+    hwtype: catalyst6kMsfc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.259:
+    hwtype: cisco7120Quadt1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.260:
+    hwtype: cisco7120T3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.261:
+    hwtype: cisco7120E3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.262:
+    hwtype: cisco7120At3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.263:
+    hwtype: cisco7120Ae3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.264:
+    hwtype: cisco7120Smi3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.265:
+    hwtype: cisco7140Dualt3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.266:
+    hwtype: cisco7140Duale3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.267:
+    hwtype: cisco7140Dualat3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.268:
+    hwtype: cisco7140Dualae3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.269:
+    hwtype: cisco7140Dualmm3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.270:
+    hwtype: cisco827QuadV
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.271:
+    hwtype: ciscoUBR7246VXR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.272:
+    hwtype: cisco10400
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.273:
+    hwtype: cisco12016
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.274:
+    hwtype: ciscoAs5400
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.275:
+    hwtype: cat2948gL3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.276:
+    hwtype: cisco7140Octt1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.277:
+    hwtype: cisco7140Dualfe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.278:
+    hwtype: cat3548XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.279:
+    hwtype: ciscoVG200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.280:
+    hwtype: cat6006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.281:
+    hwtype: cat6009
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.282:
+    hwtype: cat6506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.283:
+    hwtype: cat6509
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.284:
+    hwtype: cisco827
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.285:
+    hwtype: ciscoManagementEngine1100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.286:
+    hwtype: ciscoMc3810V3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.287:
+    hwtype: cat3524tXLEn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.288:
+    hwtype: cisco7507z
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.289:
+    hwtype: cisco7513z
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.290:
+    hwtype: cisco7507mx
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.291:
+    hwtype: cisco7513mx
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.292:
+    hwtype: ciscoUBR912C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.293:
+    hwtype: ciscoUBR912S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.294:
+    hwtype: ciscoUBR914
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.295:
+    hwtype: cisco802J
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.296:
+    hwtype: cisco804J
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.297:
+    hwtype: cisco6160
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.298:
+    hwtype: cat4908gL3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.299:
+    hwtype: cisco6015
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.300:
+    hwtype: cat4232L3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.301:
+    hwtype: catalyst6kMsfc2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.302:
+    hwtype: cisco7750Mrp200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.303:
+    hwtype: cisco7750Ssp80
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.304:
+    hwtype: ciscoMGX8230
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.305:
+    hwtype: ciscoMGX8250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.306:
+    hwtype: ciscoCVA122
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.307:
+    hwtype: ciscoCVA124
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.308:
+    hwtype: ciscoAS5850
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.310:
+    hwtype: cat6509Sp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.311:
+    hwtype: ciscoMGX8240
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.312:
+    hwtype: cat4840gL3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.313:
+    hwtype: ciscoAS5350
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.314:
+    hwtype: cisco7750
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.315:
+    hwtype: ciscoMGX8950
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.316:
+    hwtype: ciscoUBR925
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.317:
+    hwtype: ciscoUBR10012
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.318:
+    hwtype: catalyst4kGateway
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.319:
+    hwtype: cisco2650
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.320:
+    hwtype: cisco2651
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.321:
+    hwtype: cisco826QuadV
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.322:
+    hwtype: cisco826
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.323:
+    hwtype: catalyst295012
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.324:
+    hwtype: catalyst295024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.325:
+    hwtype: catalyst295024C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.326:
+    hwtype: cisco1751
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.327:
+    hwtype: cisco1730Iad8Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.328:
+    hwtype: cisco1730Iad16Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.329:
+    hwtype: cisco626
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.330:
+    hwtype: cisco627
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.331:
+    hwtype: cisco633
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.332:
+    hwtype: cisco673
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.333:
+    hwtype: cisco675
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.334:
+    hwtype: cisco675e
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.335:
+    hwtype: cisco676
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.336:
+    hwtype: cisco677
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.337:
+    hwtype: cisco678
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.338:
+    hwtype: cisco3661Ac
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.339:
+    hwtype: cisco3661Dc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.340:
+    hwtype: cisco3662Ac
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.341:
+    hwtype: cisco3662Dc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.342:
+    hwtype: cisco3662AcCo
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.343:
+    hwtype: cisco3662DcCo
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.344:
+    hwtype: ciscoUBR7111
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.345:
+    hwtype: ciscoUBR7111E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.346:
+    hwtype: ciscoUBR7114
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.347:
+    hwtype: ciscoUBR7114E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.348:
+    hwtype: cisco12010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.349:
+    hwtype: cisco8110
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.350:
+    hwtype: cisco8120
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.351:
+    hwtype: ciscoUBR905
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.352:
+    hwtype: ciscoIDS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.353:
+    hwtype: ciscoSOHO77
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.354:
+    hwtype: ciscoSOHO76
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.355:
+    hwtype: cisco7150Dualfe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.356:
+    hwtype: cisco7150Octt1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.357:
+    hwtype: cisco7150Dualt3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.358:
+    hwtype: ciscoOlympus
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.359:
+    hwtype: catalyst2950t24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.360:
+    hwtype: ciscoVPS1110
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.361:
+    hwtype: ciscoContentEngine
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.362:
+    hwtype: ciscoIAD2420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.363:
+    hwtype: cisco677i
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.364:
+    hwtype: cisco674
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.365:
+    hwtype: ciscoDPA7630
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.366:
+    hwtype: catalyst355024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.367:
+    hwtype: catalyst355048
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.368:
+    hwtype: catalyst355012T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.369:
+    hwtype: catalyst2924LREXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.370:
+    hwtype: catalyst2912LREXL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.371:
+    hwtype: ciscoCVA122E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.372:
+    hwtype: ciscoCVA124E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.373:
+    hwtype: ciscoURM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.374:
+    hwtype: ciscoURM2FE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.375:
+    hwtype: ciscoURM2FE2V
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.376:
+    hwtype: cisco7401VXR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.377:
+    hwtype: cisco951
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.378:
+    hwtype: cisco952
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.379:
+    hwtype: ciscoCAP340
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.380:
+    hwtype: ciscoCAP350
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.381:
+    hwtype: ciscoDPA7610
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.382:
+    hwtype: cisco828
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.383:
+    hwtype: ciscoSOHO78
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.384:
+    hwtype: cisco806
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.385:
+    hwtype: cisco12416
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.386:
+    hwtype: cat2948gL3Dc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.387:
+    hwtype: cat4908gL3Dc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.388:
+    hwtype: cisco12406
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.389:
+    hwtype: ciscoPIXFirewall506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.390:
+    hwtype: ciscoPIXFirewall515
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.391:
+    hwtype: ciscoPIXFirewall520
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.392:
+    hwtype: ciscoPIXFirewall525
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.393:
+    hwtype: ciscoPIXFirewall535
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.394:
+    hwtype: cisco12410
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.395:
+    hwtype: cisco811
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.396:
+    hwtype: cisco813
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.397:
+    hwtype: cisco10720
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.398:
+    hwtype: ciscoMWR1900
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.399:
+    hwtype: cisco4224
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.400:
+    hwtype: ciscoWSC6513
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.401:
+    hwtype: ciscoOSR7603
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.402:
+    hwtype: cisco7606
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.403:
+    hwtype: cisco7401ASR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.404:
+    hwtype: ciscoVG248
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.405:
+    hwtype: ciscoHSE1105
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.406:
+    hwtype: ciscoONS15540ESP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.407:
+    hwtype: ciscoSN5420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.408:
+    hwtype: ciscoIcs7750Ce300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.409:
+    hwtype: ciscoCe507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.410:
+    hwtype: ciscoCe560
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.411:
+    hwtype: ciscoCe590
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.412:
+    hwtype: ciscoCe7320
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.413:
+    hwtype: cisco2691
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.414:
+    hwtype: cisco3725
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.415:
+    hwtype: cisco3640A
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.416:
+    hwtype: cisco1760
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.417:
+    hwtype: ciscoPIXFirewall501
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.418:
+    hwtype: cisco2610M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.419:
+    hwtype: cisco2611M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.420:
+    hwtype: ciscoGP10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.421:
+    hwtype: ciscoMC21
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.422:
+    hwtype: ciscoSN51
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.423:
+    hwtype: cisco12404
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.424:
+    hwtype: cisco9004
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.425:
+    hwtype: cisco3631Co
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.427:
+    hwtype: catalyst295012G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.428:
+    hwtype: catalyst295024G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.429:
+    hwtype: catalyst295048G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.430:
+    hwtype: catalyst295024S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.431:
+    hwtype: catalyst355012G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.432:
+    hwtype: ciscoCE507AV
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.433:
+    hwtype: ciscoCE560AV
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.434:
+    hwtype: ciscoIE2105
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.435:
+    hwtype: ciscoMGX8850Pxm1E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.436:
+    hwtype: cisco3745
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.437:
+    hwtype: cisco10005
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.438:
+    hwtype: cisco10008
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.439:
+    hwtype: cisco7304
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.440:
+    hwtype: ciscoRpmXf
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.441:
+    hwtype: ciscoOsm4oc3PosSmIr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.442:
+    hwtype: ciscoOsm4oc3PosMmSr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.443:
+    hwtype: ciscoOsm4oc3PosSmLr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.444:
+    hwtype: cisco1721
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.445:
+    hwtype: cat4000Sup3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.446:
+    hwtype: cisco827H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.447:
+    hwtype: ciscoSOHO77H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.448:
+    hwtype: cat4006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.449:
+    hwtype: ciscoWSC6503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.450:
+    hwtype: ciscoPIXFirewall506E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.451:
+    hwtype: ciscoPIXFirewall515E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.452:
+    hwtype: cat355024Dc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.453:
+    hwtype: cat355024Mmf
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.454:
+    hwtype: ciscoCE2636
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.455:
+    hwtype: ciscoDwCE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.456:
+    hwtype: cisco7750Mrp300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.457:
+    hwtype: ciscoRPMPR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.458:
+    hwtype: cisco14MGX8830Pxm1E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.459:
+    hwtype: ciscoWlse
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.460:
+    hwtype: ciscoONS15530
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.461:
+    hwtype: ciscoONS15530NEBS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.462:
+    hwtype: ciscoONS15530ETSI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.463:
+    hwtype: ciscoSOHO71
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.464:
+    hwtype: cisco6400UAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.466:
+    hwtype: cisco2610XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.467:
+    hwtype: cisco2611XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.468:
+    hwtype: cisco2620XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.469:
+    hwtype: cisco2621XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.470:
+    hwtype: cisco2650XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.471:
+    hwtype: cisco2651XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.472:
+    hwtype: catalyst295024GDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.474:
+    hwtype: ciscoAIRAP1200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.475:
+    hwtype: ciscoSN5428
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.476:
+    hwtype: cisco7301
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.477:
+    hwtype: cisco12816
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.478:
+    hwtype: cisco12810
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.479:
+    hwtype: cisco3250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.480:
+    hwtype: catalyst295024SX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.481:
+    hwtype: ciscoONS15540ESPx
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.482:
+    hwtype: catalyst295024LRESt
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.483:
+    hwtype: catalyst29508LRESt
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.484:
+    hwtype: catalyst295024LREG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.485:
+    hwtype: catalyst355024PWR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.486:
+    hwtype: ciscoCDM4630
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.487:
+    hwtype: ciscoCDM4650
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.488:
+    hwtype: catalyst2955T12
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.489:
+    hwtype: catalyst2955C12
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.490:
+    hwtype: ciscoCE508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.491:
+    hwtype: ciscoCE565
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.492:
+    hwtype: ciscoCE7325
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.493:
+    hwtype: ciscoONS15454
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.494:
+    hwtype: ciscoONS15327
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.495:
+    hwtype: cisco837
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.496:
+    hwtype: ciscoSOHO97
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.497:
+    hwtype: cisco831
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.498:
+    hwtype: ciscoSOHO91
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.499:
+    hwtype: cisco836
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.500:
+    hwtype: ciscoSOHO96
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.501:
+    hwtype: cat4507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.502:
+    hwtype: cat4506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.503:
+    hwtype: cat4503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.504:
+    hwtype: ciscoCE7305
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.505:
+    hwtype: ciscoCE510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.507:
+    hwtype: ciscoAIRAP1100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.508:
+    hwtype: catalyst2955S12
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.509:
+    hwtype: cisco7609
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.510:
+    hwtype: ciscoWSC65509
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.511:
+    hwtype: catalyst375024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.512:
+    hwtype: catalyst375048
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.513:
+    hwtype: catalyst375024TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.514:
+    hwtype: catalyst375024T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.515:
+    hwtype: catalystC3524PWRXLEn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.516:
+    hwtype: catalyst37xxStack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.517:
+    hwtype: ciscoGSS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.518:
+    hwtype: ciscoPrimaryGSSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.519:
+    hwtype: ciscoStandbyGSSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.520:
+    hwtype: ciscoMWR1941DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.521:
+    hwtype: ciscoDSC9216K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.522:
+    hwtype: cat6500FirewallSm
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.523:
+    hwtype: ciscoSCA11000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.524:
+    hwtype: ciscoCSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.525:
+    hwtype: ciscoAIRAP1210
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.526:
+    hwtype: ciscoSCA211000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.527:
+    hwtype: catalyst297024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.528:
+    hwtype: cisco7613
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.529:
+    hwtype: ciscoSN54282
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.530:
+    hwtype: catalyst3750Ge12Sfp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.531:
+    hwtype: ciscoCR4430
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.532:
+    hwtype: ciscoCR4450
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.533:
+    hwtype: ciscoAIRBR1410
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.534:
+    hwtype: ciscoWSC6509neba
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.535:
+    hwtype: catalyst375048PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.536:
+    hwtype: catalyst375024PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.537:
+    hwtype: catalyst4510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.538:
+    hwtype: cisco1711
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.539:
+    hwtype: cisco1712
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.540:
+    hwtype: catalyst29408TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.542:
+    hwtype: catalyst29408TF
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.543:
+    hwtype: cisco3825
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.544:
+    hwtype: cisco3845
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.545:
+    hwtype: cisco2430Iad24Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.546:
+    hwtype: cisco2431Iad8Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.547:
+    hwtype: cisco2431Iad16Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.548:
+    hwtype: cisco2431Iad1T1E1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.549:
+    hwtype: cisco2432Iad24Fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.550:
+    hwtype: cisco1701ADSLBRI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.551:
+    hwtype: catalyst2950St24LRE997
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.552:
+    hwtype: ciscoAirAp350IOS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.553:
+    hwtype: cisco3220
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.554:
+    hwtype: cat6500SslSm
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.555:
+    hwtype: ciscoSIMSE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.556:
+    hwtype: ciscoESSE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.557:
+    hwtype: catalyst6kSup720
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.558:
+    hwtype: ciscoVG224
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.559:
+    hwtype: catalyst295048T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.560:
+    hwtype: catalyst295048SX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.561:
+    hwtype: catalyst297024TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.562:
+    hwtype: ciscoNmNam
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.563:
+    hwtype: catalyst356024PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.564:
+    hwtype: catalyst356048PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.565:
+    hwtype: ciscoAIRBR1300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.566:
+    hwtype: cisco851
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.567:
+    hwtype: cisco857
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.568:
+    hwtype: cisco876
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.569:
+    hwtype: cisco877
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.570:
+    hwtype: cisco878
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.571:
+    hwtype: cisco871
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.572:
+    hwtype: uMG9820
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.573:
+    hwtype: catalyst6kGateway
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.574:
+    hwtype: catalyst375024ME
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.575:
+    hwtype: catalyst4000NAM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.576:
+    hwtype: cisco2811
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.577:
+    hwtype: cisco2821
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.578:
+    hwtype: cisco2851
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.581:
+    hwtype: cisco3201WMIC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.582:
+    hwtype: ciscoMCS7815I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.583:
+    hwtype: ciscoMCS7825H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.584:
+    hwtype: ciscoMCS7835H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.585:
+    hwtype: ciscoMCS7835I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.586:
+    hwtype: ciscoMCS7845H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.587:
+    hwtype: ciscoMCS7845I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.588:
+    hwtype: ciscoMCS7855I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.589:
+    hwtype: ciscoMCS7865I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.590:
+    hwtype: cisco12006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.591:
+    hwtype: catalyst3750G16TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.592:
+    hwtype: ciscoIGESM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.593:
+    hwtype: ciscoCCM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.594:
+    hwtype: cisco1718
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.595:
+    hwtype: ciscoCe511K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.596:
+    hwtype: ciscoCe566K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.597:
+    hwtype: ciscoMGX8830Pxm45
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.598:
+    hwtype: ciscoMGX8880
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.599:
+    hwtype: ciscoWsSvcWLAN1K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.600:
+    hwtype: ciscoCe7306K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.601:
+    hwtype: ciscoCe7326K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.602:
+    hwtype: catalyst3750G24PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.603:
+    hwtype: catalyst3750G48PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.604:
+    hwtype: catalyst3750G48TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.606:
+    hwtype: ciscoBMGX8830Pxm45
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.607:
+    hwtype: ciscoBMGX8830Pxm1E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.608:
+    hwtype: ciscoBMGX8850Pxm45
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.609:
+    hwtype: ciscoBMGX8850Pxm1E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.610:
+    hwtype: ciscoSSLCSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.611:
+    hwtype: ciscoNetworkRegistrar
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.612:
+    hwtype: ciscoCe501K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.613:
+    hwtype: ciscoCRS16S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.614:
+    hwtype: catalyst3560G24PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.615:
+    hwtype: catalyst3560G24TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.616:
+    hwtype: catalyst3560G48PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.617:
+    hwtype: catalyst3560G48TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.618:
+    hwtype: ciscoAIRAP1130
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.619:
+    hwtype: cisco2801
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.620:
+    hwtype: cisco1841
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.621:
+    hwtype: ciscoWsSvcMWAM1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.622:
+    hwtype: ciscoNMCUE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.623:
+    hwtype: ciscoAIMCUE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.624:
+    hwtype: catalyst3750G24TS1U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.625:
+    hwtype: cisco371098HP001
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.626:
+    hwtype: catalyst4948
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.627:
+    hwtype: ciscoSB101
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.628:
+    hwtype: ciscoSB106
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.629:
+    hwtype: ciscoSB107
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.630:
+    hwtype: ciscoWLSE1130
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.631:
+    hwtype: ciscoWLSE1030
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.632:
+    hwtype: ciscoHSE1140
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.633:
+    hwtype: catalyst356024TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.634:
+    hwtype: catalyst356048TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.635:
+    hwtype: ciscoWsSvcadsm1K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.636:
+    hwtype: ciscoWsSvcagsm1K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.637:
+    hwtype: ciscoONS15310
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.638:
+    hwtype: cisco1801
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.639:
+    hwtype: cisco1802
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.640:
+    hwtype: cisco1803
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.641:
+    hwtype: cisco1811
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.642:
+    hwtype: cisco1812
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.643:
+    hwtype: ciscoCRS8S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.645:
+    hwtype: ciscoIDS4210
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.646:
+    hwtype: ciscoIDS4215
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.647:
+    hwtype: ciscoIDS4235
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.648:
+    hwtype: ciscoIPS4240
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.649:
+    hwtype: ciscoIDS4250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.650:
+    hwtype: ciscoIDS4250SX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.651:
+    hwtype: ciscoIDS4250XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.652:
+    hwtype: ciscoIPS4255
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.653:
+    hwtype: ciscoIDSIDSM2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.654:
+    hwtype: ciscoIDSNMCIDS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.655:
+    hwtype: ciscoIPSSSM20
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.656:
+    hwtype: catalyst375024FS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.657:
+    hwtype: ciscoWSC6504E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.658:
+    hwtype: cisco7604
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.659:
+    hwtype: catalyst494810GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.660:
+    hwtype: ciscoIGESMSFP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.661:
+    hwtype: ciscoFE6326K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.662:
+    hwtype: ciscoIPSSSM10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.663:
+    hwtype: ciscoNme16Es1Ge
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.664:
+    hwtype: ciscoNmeX24Es1Ge
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.665:
+    hwtype: ciscoNmeXd24Es2St
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.666:
+    hwtype: ciscoNmeXd48Es2Ge
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.667:
+    hwtype: cisco3202WMIC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.668:
+    hwtype: ciscoAs5400XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.669:
+    hwtype: ciscoASA5510
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.670:
+    hwtype: ciscoASA5520
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.671:
+    hwtype: ciscoASA5520sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.672:
+    hwtype: ciscoASA5540
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.673:
+    hwtype: ciscoASA5540sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.674:
+    hwtype: ciscoWsSvcFwm1sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.675:
+    hwtype: ciscoPIXFirewall535sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.676:
+    hwtype: ciscoPIXFirewall525sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.677:
+    hwtype: ciscoPIXFirewall515Esc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.678:
+    hwtype: ciscoPIXFirewall515sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.679:
+    hwtype: ciscoAs5350XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.680:
+    hwtype: ciscoFe7326K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.681:
+    hwtype: ciscoFe511K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.682:
+    hwtype: ciscoSCEDispatcher
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.683:
+    hwtype: ciscoSCE1000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.684:
+    hwtype: ciscoSCE2000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.685:
+    hwtype: ciscoAIRAP1240
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.686:
+    hwtype: ciscoDSC9120CLK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.687:
+    hwtype: ciscoFe611K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.688:
+    hwtype: catalyst3750Ge12SfpDc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.689:
+    hwtype: cisco3271
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.690:
+    hwtype: cisco3272
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.691:
+    hwtype: cisco3241
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.692:
+    hwtype: cisco3242
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.693:
+    hwtype: ciscoICM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.694:
+    hwtype: catalyst296024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.695:
+    hwtype: catalyst296048
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.696:
+    hwtype: catalyst2960G24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.697:
+    hwtype: catalyst2960G48
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.698:
+    hwtype: catalyst45503
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.699:
+    hwtype: catalyst45506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.700:
+    hwtype: catalyst45507
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.701:
+    hwtype: catalyst455010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.702:
+    hwtype: ciscoNme16Es1GeNoPwr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.703:
+    hwtype: ciscoNmeX24Es1GeNoPwr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.704:
+    hwtype: ciscoNmeXd24Es2StNoPwr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.705:
+    hwtype: ciscoNmeXd48Es2GeNoPwr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.706:
+    hwtype: catalyst6kMsfc2a
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.707:
+    hwtype: ciscoEDI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.708:
+    hwtype: ciscoCe611K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.709:
+    hwtype: ciscoWLSEs20
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.710:
+    hwtype: ciscoMPX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.711:
+    hwtype: ciscoNMCUEEC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.712:
+    hwtype: ciscoWLSE1132
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.713:
+    hwtype: ciscoME6340ACA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.714:
+    hwtype: ciscoME6340DCA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.715:
+    hwtype: ciscoME6340DCB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.716:
+    hwtype: catalyst296024TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.717:
+    hwtype: catalyst296048TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.718:
+    hwtype: ciscoIGESMSFPT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.719:
+    hwtype: ciscoMEC6524gs8s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.720:
+    hwtype: ciscoMEC6524gt8s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.721:
+    hwtype: ciscoMEC6724s10x2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.722:
+    hwtype: ciscoMEC6724t10x2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.723:
+    hwtype: ciscoPaldron
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.724:
+    hwtype: catalystsExpress50024TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.725:
+    hwtype: catalystsExpress50024LC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.726:
+    hwtype: catalystsExpress50024PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.727:
+    hwtype: catalystsExpress50012TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.728:
+    hwtype: ciscoIGESMT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.729:
+    hwtype: ciscoACE04G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.730:
+    hwtype: ciscoACE10K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.731:
+    hwtype: cisco5750
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.732:
+    hwtype: ciscoMWR1941DCA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.733:
+    hwtype: cisco815
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.734:
+    hwtype: cisco240024TSA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.735:
+    hwtype: cisco240024TSD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.736:
+    hwtype: cisco340024TSA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.737:
+    hwtype: cisco340024TSD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.738:
+    hwtype: ciscoCrs18Linecard
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.739:
+    hwtype: ciscoCrs1Fabric
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.740:
+    hwtype: ciscoFE2636
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.741:
+    hwtype: ciscoIDS4220
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.742:
+    hwtype: ciscoIDS4230
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.743:
+    hwtype: ciscoIPS4260
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.744:
+    hwtype: ciscoWsSvcSAMIBB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.745:
+    hwtype: ciscoASA5505
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.746:
+    hwtype: ciscoMCS7825I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.747:
+    hwtype: ciscoWsC3750g24ps
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.748:
+    hwtype: ciscoWs3020Hpq
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.749:
+    hwtype: ciscoWs3030Del
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.750:
+    hwtype: ciscoSpaOc48posSfp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.751:
+    hwtype: catalyst6kEnhancedGateway
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.752:
+    hwtype: ciscoWLSE1133
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.753:
+    hwtype: ciscoASA5550
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.754:
+    hwtype: ciscoNMAONK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.755:
+    hwtype: ciscoNMAONWS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.756:
+    hwtype: ciscoNMAONAPS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.757:
+    hwtype: ciscoWae612K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.758:
+    hwtype: ciscoAIRAP1250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.759:
+    hwtype: ciscoCe512K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.760:
+    hwtype: ciscoFe512K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.761:
+    hwtype: ciscoCe612K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.762:
+    hwtype: ciscoFe612K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.763:
+    hwtype: ciscoASA5550sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.764:
+    hwtype: ciscoASA5520sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.765:
+    hwtype: ciscoASA5540sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.766:
+    hwtype: ciscoASA5550sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.767:
+    hwtype: ciscoWsSvcFwm1sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.768:
+    hwtype: ciscoPIXFirewall515sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.769:
+    hwtype: ciscoPIXFirewall515Esy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.770:
+    hwtype: ciscoPIXFirewall525sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.771:
+    hwtype: ciscoPIXFirewall535sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.772:
+    hwtype: ciscoIpRanOpt4p
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.773:
+    hwtype: ciscoASA5510sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.774:
+    hwtype: ciscoASA5510sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.775:
+    hwtype: ciscoJumpgate
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.776:
+    hwtype: ciscoOe512K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.777:
+    hwtype: ciscoOe612K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.778:
+    hwtype: catalyst3750G24WS25
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.779:
+    hwtype: catalyst3750G24WS50
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.780:
+    hwtype: ciscoMe3400g12CsA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.781:
+    hwtype: ciscoMe3400g12CsD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.782:
+    hwtype: cisco877M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.783:
+    hwtype: cisco1801M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.784:
+    hwtype: catalystWsCBS3040FSC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.785:
+    hwtype: ciscoOe511K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.786:
+    hwtype: ciscoOe611K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.787:
+    hwtype: ciscoOe7326K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.788:
+    hwtype: ciscoMe492410GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.789:
+    hwtype: catalyst3750E24TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.790:
+    hwtype: catalyst3750E48TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.791:
+    hwtype: catalyst3750E48PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.792:
+    hwtype: catalyst3750E24PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.793:
+    hwtype: catalyst3560E24TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.794:
+    hwtype: catalyst3560E48TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.795:
+    hwtype: catalyst3560E24PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.796:
+    hwtype: catalyst3560E48PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.797:
+    hwtype: catalyst35608PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.798:
+    hwtype: catalyst29608TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.799:
+    hwtype: catalyst2960G8TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.800:
+    hwtype: ciscoTSPri
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.801:
+    hwtype: ciscoTSSec
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.802:
+    hwtype: ciscoUWIpPhone7921G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.803:
+    hwtype: ciscoUWIpPhone7920
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.804:
+    hwtype: cisco3200WirelessMic
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.805:
+    hwtype: ciscoISRWireless
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.806:
+    hwtype: ciscoIPSVirtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.807:
+    hwtype: ciscoIDS4215Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.808:
+    hwtype: ciscoIDS4235Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.809:
+    hwtype: ciscoIDS4250Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.810:
+    hwtype: ciscoIDS4250SXVirtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.811:
+    hwtype: ciscoIDS4250XLVirtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.812:
+    hwtype: ciscoIDS4240Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.813:
+    hwtype: ciscoIDS4255Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.814:
+    hwtype: ciscoIDS4260Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.815:
+    hwtype: ciscoIDSIDSM2Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.816:
+    hwtype: ciscoIPSSSM20Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.817:
+    hwtype: ciscoIPSSSM10Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.818:
+    hwtype: ciscoNMWLCE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.819:
+    hwtype: cisco3205WirelessMic
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.820:
+    hwtype: cisco5720
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.821:
+    hwtype: cisco7201
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.822:
+    hwtype: ciscoCrs14S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.823:
+    hwtype: ciscoNmWae
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.824:
+    hwtype: ciscoACE4710K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.825:
+    hwtype: ciscoMe3400g2csA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.826:
+    hwtype: ciscoNmeNam
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.827:
+    hwtype: ciscoUbr7225Vxr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.828:
+    hwtype: ciscoAirWlc2106K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.829:
+    hwtype: ciscoMwr1951DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.830:
+    hwtype: ciscoIPS4270
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.831:
+    hwtype: ciscoIPS4270Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.832:
+    hwtype: ciscoWSC6509ve
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.833:
+    hwtype: cisco5740
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.834:
+    hwtype: cisco861
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.835:
+    hwtype: cisco866
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.836:
+    hwtype: cisco867
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.837:
+    hwtype: cisco881
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.838:
+    hwtype: cisco881G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.839:
+    hwtype: ciscoIad881F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.840:
+    hwtype: cisco881Srst
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.841:
+    hwtype: ciscoIad881B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.842:
+    hwtype: cisco886
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.843:
+    hwtype: cisco886G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.844:
+    hwtype: ciscoIad886F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.845:
+    hwtype: ciscoIad886B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.846:
+    hwtype: cisco886Srst
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.847:
+    hwtype: cisco887
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.848:
+    hwtype: cisco887G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.849:
+    hwtype: ciscoIad887F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.850:
+    hwtype: ciscoIad887B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.851:
+    hwtype: cisco887Srst
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.852:
+    hwtype: cisco888
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.853:
+    hwtype: cisco888G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.854:
+    hwtype: ciscoIad888F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.855:
+    hwtype: ciscoIad888B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.856:
+    hwtype: cisco888Srst
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.857:
+    hwtype: cisco891
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.858:
+    hwtype: cisco892
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.859:
+    hwtype: cisco885D3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.860:
+    hwtype: ciscoIad885FD3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.861:
+    hwtype: cisco885EJ3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.862:
+    hwtype: cisco7603s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.863:
+    hwtype: cisco7606s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.864:
+    hwtype: cisco7609s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.865:
+    hwtype: cisco7600Seb
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.866:
+    hwtype: ciscoNMECUE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.867:
+    hwtype: ciscoAIM2CUE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.868:
+    hwtype: ciscoUC500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.869:
+    hwtype: cisco860Ap
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.870:
+    hwtype: cisco880Ap
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.871:
+    hwtype: cisco890Ap
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.872:
+    hwtype: cisco1900Ap
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.873:
+    hwtype: cisco340024FSA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.874:
+    hwtype: catalyst4503e
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.875:
+    hwtype: catalyst4506e
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.876:
+    hwtype: catalyst4507re
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.877:
+    hwtype: catalyst4510re
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.878:
+    hwtype: ciscoUC520s8U4FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.879:
+    hwtype: ciscoUC520s8U4FXOWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.880:
+    hwtype: ciscoUC520s8U2BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.881:
+    hwtype: ciscoUC520s8U2BRIWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.882:
+    hwtype: ciscoUC520s16U4FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.883:
+    hwtype: ciscoUC520s16U4FXOWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.884:
+    hwtype: ciscoUC520s16U2BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.885:
+    hwtype: ciscoUC520s16U2BRIWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.886:
+    hwtype: ciscoUC520m32U8FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.887:
+    hwtype: ciscoUC520m32U8FXOWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.888:
+    hwtype: ciscoUC520m32U4BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.889:
+    hwtype: ciscoUC520m32U4BRIWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.890:
+    hwtype: ciscoUC520m48U12FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.891:
+    hwtype: ciscoUC520m48U12FXOWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.892:
+    hwtype: ciscoUC520m48U6BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.893:
+    hwtype: ciscoUC520m48U6BRIWK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.894:
+    hwtype: ciscoUC520m48U1T1E1FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.895:
+    hwtype: ciscoUC520m48U1T1E1BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.896:
+    hwtype: catalyst65xxVirtualSwitch
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.897:
+    hwtype: catalystExpress5208PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.898:
+    hwtype: ciscoMCS7816I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.899:
+    hwtype: ciscoMCS7828I
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.900:
+    hwtype: ciscoMCS7816H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.901:
+    hwtype: ciscoMCS7828H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.902:
+    hwtype: cisco1861Uc2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.903:
+    hwtype: cisco1861Uc4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.904:
+    hwtype: cisco1861Srst2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.905:
+    hwtype: cisco1861Srst4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.906:
+    hwtype: ciscoNmeApa
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.907:
+    hwtype: ciscoOe7330K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.908:
+    hwtype: ciscoOe7350K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.909:
+    hwtype: ciscoWsCbs3110gS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.910:
+    hwtype: ciscoWsCbs3110gSt
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.911:
+    hwtype: ciscoWsCbs3110xS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.912:
+    hwtype: ciscoWsCbs3110xSt
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.913:
+    hwtype: ciscoSce8000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.914:
+    hwtype: ciscoASA5580
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.915:
+    hwtype: ciscoASA5580sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.916:
+    hwtype: ciscoASA5580sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.917:
+    hwtype: cat4900M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.918:
+    hwtype: catWsCbs3120gS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.919:
+    hwtype: catWsCbs3120xS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.920:
+    hwtype: catWsCbs3032Del
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.921:
+    hwtype: catWsCbs3130gS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.922:
+    hwtype: catWsCbs3130xS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.923:
+    hwtype: ciscoASR1002
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.924:
+    hwtype: ciscoASR1004
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.925:
+    hwtype: ciscoASR1006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.926:
+    hwtype: cisco520WirelessController
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.927:
+    hwtype: cat296048TCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.928:
+    hwtype: cat296024TCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.929:
+    hwtype: cat296024S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.930:
+    hwtype: cat3560e12d
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.931:
+    hwtype: ciscoCatRfgw
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.932:
+    hwtype: catExpress52024TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.933:
+    hwtype: catExpress52024LC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.934:
+    hwtype: catExpress52024PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.935:
+    hwtype: catExpress520G24TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.936:
+    hwtype: ciscoCDScde100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.937:
+    hwtype: ciscoCDScde200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.938:
+    hwtype: ciscoCDScde300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.939:
+    hwtype: cisco1861SrstCue2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.940:
+    hwtype: cisco1861SrstCue4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.941:
+    hwtype: ciscoVFrameDataCenter
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.942:
+    hwtype: ciscoVQEServer
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.943:
+    hwtype: ciscoIPSSSM40Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.944:
+    hwtype: ciscoIPSSSM40
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.945:
+    hwtype: ciscoVgd1t3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.946:
+    hwtype: ciscoCBS3100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.947:
+    hwtype: ciscoCBS3110
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.948:
+    hwtype: ciscoCBS3120
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.949:
+    hwtype: ciscoCBS3130
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.950:
+    hwtype: catalyst296024PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.951:
+    hwtype: catalyst296024LT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.952:
+    hwtype: catalyst2960PD8TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.953:
+    hwtype: ciscoSpa2x1geSynce
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.954:
+    hwtype: ciscoN5kC5020pBa
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.955:
+    hwtype: ciscoN5kC5020pBd
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.956:
+    hwtype: catalyst3560E12SD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.957:
+    hwtype: ciscoOe674
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.958:
+    hwtype: ciscoIE30004TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.959:
+    hwtype: ciscoIE30008TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.960:
+    hwtype: ciscoRAIE1783MS06T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.961:
+    hwtype: ciscoRAIE1783MS10T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.962:
+    hwtype: cisco2435Iad8fxs
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.963:
+    hwtype: ciscoVG204
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.964:
+    hwtype: ciscoVG202
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.965:
+    hwtype: catalyst291824TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.966:
+    hwtype: catalyst291824TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.967:
+    hwtype: catalyst291848TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.968:
+    hwtype: catalyst291848TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.969:
+    hwtype: ciscoVQETools
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.970:
+    hwtype: ciscoUC520m24U4BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.971:
+    hwtype: ciscoUC520m24U8FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.972:
+    hwtype: ciscoUC520s16U2BRIWK9J
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.973:
+    hwtype: ciscoUC520s8U2BRIWK9J
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.974:
+    hwtype: ciscoVSIntSp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.975:
+    hwtype: ciscoVSSP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.976:
+    hwtype: ciscoVSHydecoder
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.977:
+    hwtype: ciscoVSDecoder
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.978:
+    hwtype: ciscoVSEncoder4P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.979:
+    hwtype: ciscoVSEncoder1P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.980:
+    hwtype: ciscoSCS1000K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.981:
+    hwtype: cisco1805
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.982:
+    hwtype: ciscoCe7341
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.983:
+    hwtype: ciscoCe7371
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.984:
+    hwtype: cisco7613s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.985:
+    hwtype: ciscoOe574
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.986:
+    hwtype: ciscoOe474
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.987:
+    hwtype: ciscoOe274
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.988:
+    hwtype: ciscoAp801agn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.989:
+    hwtype: ciscoAp801gn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.990:
+    hwtype: cisco1861WSrstCue4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.991:
+    hwtype: cisco1861WSrstCue2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.992:
+    hwtype: cisco1861WSrst4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.993:
+    hwtype: cisco1861WSrst2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.994:
+    hwtype: cisco1861WUc4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.995:
+    hwtype: cisco1861WUc2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.996:
+    hwtype: ciscoCe674
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.997:
+    hwtype: ciscoVQEIST
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.998:
+    hwtype: ciscoAIRAP1160
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.999:
+    hwtype: ciscoWsCbs3012Ibm
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1000:
+    hwtype: ciscoWsCbs3012IbmI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1001:
+    hwtype: ciscoWsCbs3125gS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1002:
+    hwtype: ciscoWsCbs3125xS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1003:
+    hwtype: ciscoTSPriG2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1004:
+    hwtype: catalyst492810GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1005:
+    hwtype: catalyst296048TTS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1006:
+    hwtype: catalyst29608TCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1007:
+    hwtype: ciscoMe3400eg2csA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1008:
+    hwtype: ciscoMe3400eg12csM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1009:
+    hwtype: ciscoMe3400e24tsM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1010:
+    hwtype: ciscoIPSSSC5Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1011:
+    hwtype: ciscoSR520FE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1012:
+    hwtype: ciscoSR520ADSL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1013:
+    hwtype: ciscoSR520ADSLi
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1014:
+    hwtype: ciscoMwr2941DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1015:
+    hwtype: catalyst356012PCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1016:
+    hwtype: catalyst296048PSTL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1017:
+    hwtype: ciscoASR9010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1018:
+    hwtype: ciscoASR9006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1019:
+    hwtype: catalyst3560v224tsD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1020:
+    hwtype: catalyst3560v224ts
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1021:
+    hwtype: catalyst3560v224ps
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1022:
+    hwtype: catalyst3750v224ts
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1023:
+    hwtype: catalyst3750v224ps
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1024:
+    hwtype: catalyst3560v248ts
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1025:
+    hwtype: catalyst3560v248ps
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1026:
+    hwtype: catalyst3750v248ts
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1027:
+    hwtype: catalyst3750v248ps
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1028:
+    hwtype: ciscoHwicCableD2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1029:
+    hwtype: ciscoHwicCableEJ2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1030:
+    hwtype: ciscoBr1430
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1031:
+    hwtype: ciscoAIRBR1430
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1032:
+    hwtype: ciscoNamApp2204
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1033:
+    hwtype: ciscoNamApp2220
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1034:
+    hwtype: ciscoAIRAP1141
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1035:
+    hwtype: ciscoAIRAP1142
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1036:
+    hwtype: ciscoASR14K4S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1037:
+    hwtype: ciscoASR14K8S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1038:
+    hwtype: cisco18xxx
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1039:
+    hwtype: ciscoIPSSSC5
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1040:
+    hwtype: cisco887Vdsl2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1041:
+    hwtype: cisco3945
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1042:
+    hwtype: cisco3925
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1043:
+    hwtype: cisco2951
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1044:
+    hwtype: cisco2921
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1045:
+    hwtype: cisco2911
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1046:
+    hwtype: cisco2901
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1047:
+    hwtype: cisco1941
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1048:
+    hwtype: ciscoSm2k15Es1GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1049:
+    hwtype: ciscoSm3k15Es1GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1050:
+    hwtype: ciscoSm3k16GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1051:
+    hwtype: ciscoSm2k23Es1Ge
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1052:
+    hwtype: ciscoSm2k23Es1GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1053:
+    hwtype: ciscoSm3k23Es1GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1054:
+    hwtype: ciscoSm3k24GePoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1055:
+    hwtype: ciscoSmXd2k48Es2SFP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1056:
+    hwtype: ciscoSmXd3k48Es2SFPPoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1057:
+    hwtype: ciscoSmXd3k48Ge2SFPPoe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1058:
+    hwtype: ciscoEsw52024pK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1059:
+    hwtype: ciscoEsw54024pK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1060:
+    hwtype: ciscoEsw52048pK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1061:
+    hwtype: ciscoEsw52024K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1062:
+    hwtype: ciscoEsw54024K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1063:
+    hwtype: ciscoEsw52048K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1064:
+    hwtype: ciscoEsw54048K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1065:
+    hwtype: cisco1861
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1066:
+    hwtype: ciscoUC520
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1067:
+    hwtype: catalystWSC2975GS48PSL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1068:
+    hwtype: catalystC2975Stack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1069:
+    hwtype: cisco5500Wlc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1070:
+    hwtype: ciscoSR520T1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1071:
+    hwtype: ciscoPwrC3900Poe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1072:
+    hwtype: ciscoPwrC3900AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1073:
+    hwtype: ciscoPwrC2921C2951Poe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1074:
+    hwtype: ciscoPwrC2921C2951AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1075:
+    hwtype: ciscoPwrC2911Poe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1076:
+    hwtype: ciscoPwrC2911AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1077:
+    hwtype: ciscoPwrC2901Poe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1078:
+    hwtype: ciscoPwrC1941C2901AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1079:
+    hwtype: ciscoPwrC1941Poe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1080:
+    hwtype: ciscoPwrC3900DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1081:
+    hwtype: ciscoPwrC2921C2951DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1082:
+    hwtype: ciscoPwrC2911DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1083:
+    hwtype: ciscoRpsAdptrC2921C2951
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1084:
+    hwtype: ciscoRpsAdptrC2911
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1085:
+    hwtype: ciscoIPSSSC2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1086:
+    hwtype: ciscoIPSSSC2Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1087:
+    hwtype: catalystWSCBS3140XS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1088:
+    hwtype: catalystWSCBS3140GS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1089:
+    hwtype: catalystWSCBS3042FSC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1090:
+    hwtype: catalystWSCBS3150XS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1091:
+    hwtype: catalystWSCBS3150GS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1092:
+    hwtype: catalystWSCBS3052NEC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1093:
+    hwtype: ciscoCBS3140Stack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1094:
+    hwtype: ciscoCBS3150Stack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1095:
+    hwtype: cisco1941W
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1096:
+    hwtype: ciscoC888E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1097:
+    hwtype: ciscoC888EG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1098:
+    hwtype: ciscoIad888EB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1099:
+    hwtype: ciscoIad888EF
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1100:
+    hwtype: ciscoC888ESRST
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1101:
+    hwtype: ciscoASA5505W
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1102:
+    hwtype: cisco3845nv
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1103:
+    hwtype: cisco3825nv
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1104:
+    hwtype: catalystWSC235048TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1105:
+    hwtype: cisco887M
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1106:
+    hwtype: ciscoVg250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1107:
+    hwtype: ciscoVg226e
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1108:
+    hwtype: ciscoDsIbm8GfcK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1109:
+    hwtype: ciscoDsHp8GfcK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1110:
+    hwtype: ciscoDsDell8GfcK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1111:
+    hwtype: ciscoDsC9148K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1112:
+    hwtype: ciscoCeVirtualBlade
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1113:
+    hwtype: ciscoCDScde420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1114:
+    hwtype: ciscoCDScde220
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1115:
+    hwtype: ciscoCDScde110
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1116:
+    hwtype: ciscoASR1002F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1117:
+    hwtype: ciscoSecureAccessControlSystem
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1118:
+    hwtype: cisco861Npe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1119:
+    hwtype: cisco881Npe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1120:
+    hwtype: cisco881GNpe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1121:
+    hwtype: cisco887Npe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1122:
+    hwtype: cisco888GNpe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1123:
+    hwtype: cisco891Npe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1124:
+    hwtype: ciscoAIRAP3501
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1125:
+    hwtype: ciscoAIRAP3502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1126:
+    hwtype: ciscoCDScde400
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1127:
+    hwtype: ciscoSA520K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1128:
+    hwtype: ciscoSA520WK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1129:
+    hwtype: ciscoSA540K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1130:
+    hwtype: ciscoSps2004B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1131:
+    hwtype: ciscoSps204B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1132:
+    hwtype: ciscoUC560T1E1K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1133:
+    hwtype: ciscoUC560BRIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1134:
+    hwtype: ciscoUC560FXOK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1135:
+    hwtype: ciscoAp541nAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1136:
+    hwtype: ciscoAp541nEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1137:
+    hwtype: ciscoAp541nNK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1138:
+    hwtype: cisco887GVdsl2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1139:
+    hwtype: cisco887SrstVdsl2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1140:
+    hwtype: ciscoUc540wFxoK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1141:
+    hwtype: ciscoUc540wBriK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1142:
+    hwtype: ciscoCaServer
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1143:
+    hwtype: ciscoCaManager
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1144:
+    hwtype: cisco3925SPE200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1145:
+    hwtype: cisco3945SPE250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1146:
+    hwtype: catalyst296024LCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1147:
+    hwtype: catalyst296024PCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1148:
+    hwtype: catalyst296048PSTS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1149:
+    hwtype: ciscoISM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1150:
+    hwtype: ciscoSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1151:
+    hwtype: ciscoNMEAXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1152:
+    hwtype: ciscoAIMAXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1153:
+    hwtype: ciscoAIM2AXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1154:
+    hwtype: ciscoSRP521
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1155:
+    hwtype: ciscoSRP526
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1156:
+    hwtype: ciscoSRP527
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1157:
+    hwtype: ciscoSRP541
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1158:
+    hwtype: ciscoSRP546
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1159:
+    hwtype: ciscoSRP547
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1160:
+    hwtype: ciscoVS510FXO
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1161:
+    hwtype: ciscoNmWae900
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1162:
+    hwtype: ciscoNmWae700
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1163:
+    hwtype: cisco5940RA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1164:
+    hwtype: cisco5940RC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1165:
+    hwtype: ciscoASR1001
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1166:
+    hwtype: ciscoASR1013
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1167:
+    hwtype: ciscoCDScde205
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1168:
+    hwtype: ciscoPwr1941AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1169:
+    hwtype: ciscoNamWaasVirtualBlade
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1170:
+    hwtype: ciscoRaie1783Rms06t
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1171:
+    hwtype: ciscoRaie1783Rms10t
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1172:
+    hwtype: cisco1941WEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1173:
+    hwtype: cisco1941WPK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1174:
+    hwtype: cisco1941WNK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1175:
+    hwtype: ciscoMXE5600
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1176:
+    hwtype: ciscoEsw5408pK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1177:
+    hwtype: ciscoEsw5208pK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1178:
+    hwtype: catalyst4948e10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1179:
+    hwtype: cat2960x48tsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1180:
+    hwtype: cat2960x24tsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1181:
+    hwtype: cat2960xs48fpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1182:
+    hwtype: cat2960xs48lpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1183:
+    hwtype: cat2960xs48ltdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1184:
+    hwtype: cat2960xs24pdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1185:
+    hwtype: cat2960xs24tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1186:
+    hwtype: cat2960xs48fpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1187:
+    hwtype: cat2960xs48lpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1188:
+    hwtype: cat2960xs24psL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1189:
+    hwtype: cat2960xs48tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1190:
+    hwtype: cat2960xs24tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1191:
+    hwtype: cisco1921k9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1192:
+    hwtype: cisco1905k9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1193:
+    hwtype: ciscoPwrC1921C1905AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1194:
+    hwtype: ciscoASA5585Ssp10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1195:
+    hwtype: ciscoASA5585Ssp20
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1196:
+    hwtype: ciscoASA5585Ssp40
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1197:
+    hwtype: ciscoASA5585Ssp60
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1198:
+    hwtype: ciscoASA5585Ssp10sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1199:
+    hwtype: ciscoASA5585Ssp20sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1200:
+    hwtype: ciscoASA5585Ssp40sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1201:
+    hwtype: ciscoASA5585Ssp60sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1202:
+    hwtype: ciscoASA5585Ssp10sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1203:
+    hwtype: ciscoASA5585Ssp20sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1204:
+    hwtype: ciscoASA5585Ssp40sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1205:
+    hwtype: ciscoASA5585Ssp60sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1206:
+    hwtype: cisco3925SPE250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1207:
+    hwtype: cisco3945SPE200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1208:
+    hwtype: cat29xxStack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1209:
+    hwtype: ciscoOeNm302
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1210:
+    hwtype: ciscoOeNm502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1211:
+    hwtype: ciscoOeNm522
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1212:
+    hwtype: ciscoOeSmSre700
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1213:
+    hwtype: ciscoOeSmSre900
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1214:
+    hwtype: ciscoVsaNam
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1215:
+    hwtype: ciscoMwr2941DCA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1216:
+    hwtype: ciscoN7KC7018IOS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1217:
+    hwtype: ciscoN7KC7010IOS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1218:
+    hwtype: ciscoN4KDellEth
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1219:
+    hwtype: ciscoN4KDellCiscoEth
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1220:
+    hwtype: cisco1941WCK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1221:
+    hwtype: ciscoCDScde2202s3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1222:
+    hwtype: cat3750x24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1223:
+    hwtype: cat3750x48
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1224:
+    hwtype: cat3750x24P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1225:
+    hwtype: cat3750x48P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1226:
+    hwtype: cat3560x24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1227:
+    hwtype: cat3560x48
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1228:
+    hwtype: cat3560x24P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1229:
+    hwtype: cat3560x48P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1230:
+    hwtype: ciscoNMEAIR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1231:
+    hwtype: ciscoACE30K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1232:
+    hwtype: ciscoASA5585SspIps10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1233:
+    hwtype: ciscoASA5585SspIps20
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1234:
+    hwtype: ciscoASA5585SspIps40
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1235:
+    hwtype: ciscoASA5585SspIps60
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1236:
+    hwtype: cisco1841CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1237:
+    hwtype: cisco2801CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1238:
+    hwtype: cisco2811CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1239:
+    hwtype: cisco2821CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1240:
+    hwtype: cisco2851CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1241:
+    hwtype: cisco3825CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1242:
+    hwtype: cisco3845CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1243:
+    hwtype: cisco3825CnvK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1244:
+    hwtype: cisco3845CnvK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1245:
+    hwtype: ciscoCGS252024TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1246:
+    hwtype: ciscoCGS252016S8PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1247:
+    hwtype: ciscoAIRAP1262
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1248:
+    hwtype: ciscoAIRAP1261
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1249:
+    hwtype: cisco892F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1250:
+    hwtype: ciscoMe3600x24fsM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1251:
+    hwtype: ciscoMe3600x24tsM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1252:
+    hwtype: ciscoMe3800x24fsM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1253:
+    hwtype: ciscoCGR2010
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1254:
+    hwtype: ciscoPwrCGR20xxCGS25xxPoeAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1255:
+    hwtype: ciscoPwrCGR20xxCGS25xxPoeDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1256:
+    hwtype: catWsC2960s48tsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1257:
+    hwtype: catWsC2960s24tsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1258:
+    hwtype: catWsC2960s48fpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1259:
+    hwtype: catWsC2960s48ldpL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1260:
+    hwtype: catWsC2960s48tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1261:
+    hwtype: catWsC2960s24pdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1262:
+    hwtype: catWsC2960s24tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1263:
+    hwtype: catWsC2960s48fpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1264:
+    hwtype: catWsC2960s48lpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1265:
+    hwtype: catWsC2960s24psL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1266:
+    hwtype: catWsC2960s48tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1267:
+    hwtype: catWsC2960s24tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1268:
+    hwtype: cisco1906CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1269:
+    hwtype: ciscoAIRAP1042
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1270:
+    hwtype: ciscoAIRAP1041
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1271:
+    hwtype: cisco887VaM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1272:
+    hwtype: cisco867Va
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1273:
+    hwtype: cisco886Va
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1274:
+    hwtype: cisco887Va
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1275:
+    hwtype: ciscoASASm1sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1276:
+    hwtype: ciscoASASm1sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1277:
+    hwtype: ciscoASASm1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1278:
+    hwtype: cat2960cPD8TT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1279:
+    hwtype: ciscoAirCt2504K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1280:
+    hwtype: ciscoISMAXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1281:
+    hwtype: ciscoSMAXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1282:
+    hwtype: ciscoAxpSmSre900
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1283:
+    hwtype: ciscoAxpSmSre700
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1284:
+    hwtype: ciscoAxpIsmSre300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1285:
+    hwtype: ciscoCDSAVSM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1286:
+    hwtype: cat4507rpluse
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1287:
+    hwtype: cat4510rpluse
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1288:
+    hwtype: ciscoAxpNme302
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1289:
+    hwtype: ciscoAxpNme502
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1290:
+    hwtype: ciscoAxpNme522
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1291:
+    hwtype: ciscoACE20K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1292:
+    hwtype: ciscoWsC236048tdS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1293:
+    hwtype: ciscoWiSM2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1294:
+    hwtype: ciscoCDScde250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1295:
+    hwtype: cisco7500Wlc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1296:
+    hwtype: ciscoAnmVirtualApp
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1297:
+    hwtype: ciscoECDS3100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1298:
+    hwtype: ciscoECDS1100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1299:
+    hwtype: cisco881G2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1300:
+    hwtype: catWsC3750v224fsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1301:
+    hwtype: ciscoOeVWaas
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1302:
+    hwtype: ciscoASA5585Ssp10K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1303:
+    hwtype: ciscoASA5585Ssp20K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1304:
+    hwtype: ciscoASA5585Ssp40K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1305:
+    hwtype: ciscoASA5585Ssp60K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1306:
+    hwtype: ciscoASA5585Ssp10K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1307:
+    hwtype: ciscoASA5585Ssp20K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1308:
+    hwtype: ciscoASA5585Ssp40K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1309:
+    hwtype: ciscoASA5585Ssp60K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1310:
+    hwtype: ciscoASA5585Ssp10K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1311:
+    hwtype: ciscoASA5585Ssp20K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1312:
+    hwtype: ciscoASA5585Ssp40K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1313:
+    hwtype: ciscoASA5585Ssp60K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1314:
+    hwtype: ciscoSreSmNam
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1315:
+    hwtype: cat2960cPD8PT
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1316:
+    hwtype: cat2960cG8TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1317:
+    hwtype: cat3560cG8PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1318:
+    hwtype: cat3560cG8TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1319:
+    hwtype: ciscoIE301016S8PC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1320:
+    hwtype: ciscoIE301024TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1321:
+    hwtype: ciscoRAIE1783RMSB10T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1322:
+    hwtype: ciscoRAIE1783RMSB06T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1323:
+    hwtype: ciscoASA5585SspIps10K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1324:
+    hwtype: ciscoASA5585SspIps20K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1325:
+    hwtype: ciscoASA5585SspIps40K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1326:
+    hwtype: ciscoASA5585SspIps60K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1327:
+    hwtype: catalyst4948ef10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1328:
+    hwtype: cat292824TCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1329:
+    hwtype: cat292848TCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1330:
+    hwtype: cat292824LTC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1331:
+    hwtype: ciscoCrs16SB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1332:
+    hwtype: ciscoQuad
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1334:
+    hwtype: ciscoASASm1K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1335:
+    hwtype: ciscoASASm1K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1336:
+    hwtype: ciscoASASm1K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1337:
+    hwtype: ciscoPwrCGR2010PoeAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1338:
+    hwtype: ciscoPwrCGR2010PoeDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1339:
+    hwtype: cisco1861eUc2BK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1340:
+    hwtype: cisco1861eUc4FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1341:
+    hwtype: ciscoC1861eSrstFK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1342:
+    hwtype: ciscoC1861eSrstBK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1343:
+    hwtype: ciscoC1861eSrstCFK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1344:
+    hwtype: ciscoC1861eSrstCBK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1346:
+    hwtype: ciscoGrwicDes6s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1347:
+    hwtype: ciscoGrwicDes2s8pc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1348:
+    hwtype: ciscoUCVirtualMachine
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1349:
+    hwtype: ciscoWave8541
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1350:
+    hwtype: ciscoWave7571
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1351:
+    hwtype: ciscoWave7541
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1352:
+    hwtype: ciscoWave694
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1353:
+    hwtype: ciscoWave594
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1354:
+    hwtype: ciscoWave294
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1355:
+    hwtype: cisco5915RC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1356:
+    hwtype: cisco5915RA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1358:
+    hwtype: cisco867VAEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1359:
+    hwtype: cisco866VAEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1360:
+    hwtype: cisco867VAE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1361:
+    hwtype: cisco866VAE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1362:
+    hwtype: ciscoAp802gn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1363:
+    hwtype: ciscoAp802agn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1364:
+    hwtype: catwsC2960C8tcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1365:
+    hwtype: catwsC2960C8tcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1366:
+    hwtype: catwsC2960C8pcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1367:
+    hwtype: catwsC2960C12pcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1368:
+    hwtype: catwsC3560CPD8ptS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1369:
+    hwtype: cisco1841ve
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1370:
+    hwtype: cisco2811ve
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1371:
+    hwtype: cisco881WAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1372:
+    hwtype: cisco881WEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1373:
+    hwtype: cisco881WPK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1374:
+    hwtype: cisco886VaWEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1375:
+    hwtype: cisco887VamWEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1376:
+    hwtype: cisco887VaWAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1377:
+    hwtype: cisco887VaWEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1378:
+    hwtype: cisco819GUK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1379:
+    hwtype: cisco819GSK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1380:
+    hwtype: cisco819GVK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1381:
+    hwtype: cisco819GBK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1382:
+    hwtype: cisco819G7AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1383:
+    hwtype: cisco819G7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1384:
+    hwtype: cisco819HGUK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1385:
+    hwtype: cisco819HGSK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1386:
+    hwtype: cisco819HGVK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1387:
+    hwtype: cisco819HGBK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1388:
+    hwtype: cisco819HG7AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1389:
+    hwtype: cisco819HG7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1390:
+    hwtype: cisco886Vag7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1391:
+    hwtype: cisco887VagSK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1392:
+    hwtype: cisco887Vag7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1393:
+    hwtype: cisco887Vamg7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1394:
+    hwtype: cisco888Eg7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1395:
+    hwtype: cisco881GUK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1396:
+    hwtype: cisco881GSK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1397:
+    hwtype: cisco881GVK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1398:
+    hwtype: cisco881GBK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1399:
+    hwtype: cisco881G7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1400:
+    hwtype: cisco881G7AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1404:
+    hwtype: cat3750x24s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1405:
+    hwtype: cat3750x12s
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1406:
+    hwtype: ciscoNME
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1407:
+    hwtype: ciscoASA5512
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1408:
+    hwtype: ciscoASA5525
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1409:
+    hwtype: ciscoASA5545
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1410:
+    hwtype: ciscoASA5555
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1411:
+    hwtype: ciscoASA5512sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1412:
+    hwtype: ciscoASA5525sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1413:
+    hwtype: ciscoASA5545sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1414:
+    hwtype: ciscoASA5555sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1415:
+    hwtype: ciscoASA5512sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1416:
+    hwtype: ciscoASA5515sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1417:
+    hwtype: ciscoASA5525sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1418:
+    hwtype: ciscoASA5545sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1419:
+    hwtype: ciscoASA5555sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1420:
+    hwtype: ciscoASA5515sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1421:
+    hwtype: ciscoASA5515
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1422:
+    hwtype: ciscoPCM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1423:
+    hwtype: ciscoIse3315K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1424:
+    hwtype: ciscoIse3395K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1425:
+    hwtype: ciscoIse3355K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1426:
+    hwtype: ciscoIseVmK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1428:
+    hwtype: ciscoIPS4345
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1429:
+    hwtype: ciscoIPS4360
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1432:
+    hwtype: ciscoEcdsVB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1433:
+    hwtype: ciscoTsCodecG2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1434:
+    hwtype: ciscoTsCodecG2C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1435:
+    hwtype: ciscoTSCodecG2RC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1436:
+    hwtype: ciscoTSCodecG2R
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1437:
+    hwtype: ciscoASA5585SspIps10Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1438:
+    hwtype: ciscoASA5585SspIps20Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1439:
+    hwtype: ciscoASA5585SspIps40Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1440:
+    hwtype: ciscoASA5585SspIps60Virtual
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1441:
+    hwtype: ciscoASR903
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1442:
+    hwtype: ciscoASA5512K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1443:
+    hwtype: ciscoASA5515K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1444:
+    hwtype: ciscoASA5525K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1445:
+    hwtype: ciscoASA5545K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1446:
+    hwtype: ciscoASA5555K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1447:
+    hwtype: ciscoASA5512K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1448:
+    hwtype: ciscoASA5515K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1449:
+    hwtype: ciscoASA5525K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1450:
+    hwtype: ciscoASA5545K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1451:
+    hwtype: ciscoASA5555K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1452:
+    hwtype: ciscoASA5512K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1453:
+    hwtype: ciscoASA5515K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1454:
+    hwtype: ciscoASA5525K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1455:
+    hwtype: ciscoASA5545K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1456:
+    hwtype: ciscoASA5555K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1457:
+    hwtype: ciscoASR5500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1462:
+    hwtype: ciscoXfp10Ger192IrL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1463:
+    hwtype: ciscoXfp10Glr192SrL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1464:
+    hwtype: ciscoXfp10Gzr192LrL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1465:
+    hwtype: catwsC3560C12pcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1466:
+    hwtype: catwsC3560C8pcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1467:
+    hwtype: ciscoCRSFabBP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1468:
+    hwtype: ciscoIE20004TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1469:
+    hwtype: ciscoIE20004T
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1470:
+    hwtype: ciscoIE20004TSG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1471:
+    hwtype: ciscoIE20004TG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1472:
+    hwtype: ciscoIE20008TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1473:
+    hwtype: ciscoIE20008TCG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1474:
+    hwtype: ciscoIE200016TC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1475:
+    hwtype: ciscoIE200016TCG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1476:
+    hwtype: ciscoRAIE1783BMS06SL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1477:
+    hwtype: ciscoRAIE1783BMS06TL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1478:
+    hwtype: ciscoRAIE1783BMS06TA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1479:
+    hwtype: ciscoRAIE1783BMS06SGL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1480:
+    hwtype: ciscoRAIE1783BMS06SGA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1481:
+    hwtype: ciscoRAIE1783BMS06TGL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1482:
+    hwtype: ciscoRAIE1783BMS06TGA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1483:
+    hwtype: ciscoRAIE1783BMS10CL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1484:
+    hwtype: ciscoRAIE1783BMS10CA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1485:
+    hwtype: ciscoRAIE1783BMS10CGL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1486:
+    hwtype: ciscoRAIE1783BMS10CGA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1487:
+    hwtype: ciscoRAIE1783BMS10CGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1488:
+    hwtype: ciscoRAIE1783BMS10CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1489:
+    hwtype: ciscoRAIE1783BMS20CL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1490:
+    hwtype: ciscoRAIE1783BMS20CA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1491:
+    hwtype: ciscoRAIE1783BMS20CGL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1492:
+    hwtype: ciscoRAIE1783BMS20CGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1493:
+    hwtype: ciscoRAIE1783BMS20CGPK
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1494:
+    hwtype: ciscoA9k2X100GeSe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1495:
+    hwtype: ciscoA9k2X100GeTr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1496:
+    hwtype: ciscoA9k24X10GeSe
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1497:
+    hwtype: ciscoA9k24X10GeTr
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1498:
+    hwtype: ciscoA9kMOD80SE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1499:
+    hwtype: ciscoA9kMOD80TR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1500:
+    hwtype: ciscoA9kMOD160SE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1501:
+    hwtype: ciscoA9kMOD160TR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1502:
+    hwtype: ciscoA9kMPA2X10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1503:
+    hwtype: ciscoA9kMPA4X10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1504:
+    hwtype: ciscoA9kMPA20X1GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1505:
+    hwtype: ciscoA9kMPA1X40GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1506:
+    hwtype: ciscoA9kMPA2X40GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1512:
+    hwtype: ciscoUcsC200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1513:
+    hwtype: ciscoUcsC210
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1514:
+    hwtype: ciscoUcsC250
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1515:
+    hwtype: ciscoUcsC260
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1516:
+    hwtype: ciscoUcsC460
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1519:
+    hwtype: ciscoRAIE1783BMS06SA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1520:
+    hwtype: ciscoIE200016TCGX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1521:
+    hwtype: ciscoASR901
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1522:
+    hwtype: ciscoASR901E
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1523:
+    hwtype: ciscoOeSmSre910
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1524:
+    hwtype: ciscoOeSmSre710
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1525:
+    hwtype: ciscoASR1002X
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1527:
+    hwtype: ciscoNam2304
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1528:
+    hwtype: ciscoNam2320
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1529:
+    hwtype: ciscoNam3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1530:
+    hwtype: cisco819HG4GAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1536:
+    hwtype: ciscoECDS50IVB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1537:
+    hwtype: ciscoCSR1000v
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1538:
+    hwtype: ciscoASR5000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1539:
+    hwtype: ciscoflowAgent3000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1540:
+    hwtype: ciscoTelePresenceMCU5310
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1541:
+    hwtype: ciscoTelePresenceMCU5320
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1542:
+    hwtype: cisco888ea
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1557:
+    hwtype: ciscoVG350
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1560:
+    hwtype: cisco881GW7AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1561:
+    hwtype: cisco881GW7EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1562:
+    hwtype: cisco881GWSAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1563:
+    hwtype: cisco881GWVAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1564:
+    hwtype: cisco887Vagw7AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1565:
+    hwtype: cisco887Vagw7EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1566:
+    hwtype: cisco881WDAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1567:
+    hwtype: cisco881WDEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1568:
+    hwtype: cisco887VaWDAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1569:
+    hwtype: cisco887VaWDEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1570:
+    hwtype: cisco819HGW7EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1571:
+    hwtype: cisco819HGW7NK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1572:
+    hwtype: cisco819HGW7AAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1573:
+    hwtype: cisco819HGWVAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1574:
+    hwtype: cisco819HGWSAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1575:
+    hwtype: cisco819HK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1576:
+    hwtype: cisco819HWDEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1577:
+    hwtype: cisco819HWDAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1578:
+    hwtype: cisco812G7K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1579:
+    hwtype: cisco812GCIFI7EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1580:
+    hwtype: cisco812GCIFI7NK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1581:
+    hwtype: cisco812GCIFIVAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1582:
+    hwtype: cisco812GCIFISAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1583:
+    hwtype: cisco819GUMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1584:
+    hwtype: cisco819GSMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1585:
+    hwtype: cisco819GVMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1586:
+    hwtype: cisco819GBMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1587:
+    hwtype: cisco819G7AMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1588:
+    hwtype: cisco819G7MK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1589:
+    hwtype: cisco819HGUMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1590:
+    hwtype: cisco819HGSMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1591:
+    hwtype: cisco819HGVMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1592:
+    hwtype: cisco819HGBMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1593:
+    hwtype: cisco819HG7AMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1594:
+    hwtype: cisco819HG7MK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1595:
+    hwtype: ciscoCDScde2502s6
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1596:
+    hwtype: ciscoCDScde2502m0
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1597:
+    hwtype: ciscoCDScde2502s8
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1600:
+    hwtype: cisco881V
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1601:
+    hwtype: cisco887vaV
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1602:
+    hwtype: cisco887vaVW
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1603:
+    hwtype: ciscoMDE10XVB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1605:
+    hwtype: cat4500X16
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1606:
+    hwtype: cat4500X32
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1607:
+    hwtype: ciscoCDScde2502s9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1608:
+    hwtype: ciscoCDScde2502s10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1610:
+    hwtype: ciscoASA5585Nm20x1GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1611:
+    hwtype: ciscoCDScdeGeneric
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1612:
+    hwtype: ciscoASA1000Vsy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1613:
+    hwtype: ciscoASA1000Vsc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1614:
+    hwtype: ciscoASA1000V
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1615:
+    hwtype: cisco8500WLC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1617:
+    hwtype: ciscoASA5585Nm8x10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1618:
+    hwtype: ciscoASA5585Nm4x10GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1619:
+    hwtype: ciscoISR4400
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1620:
+    hwtype: cisco892FspK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1622:
+    hwtype: cisco897VaMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1624:
+    hwtype: cisco897VawEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1625:
+    hwtype: cisco897VawAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1626:
+    hwtype: cisco897VaK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1627:
+    hwtype: cisco896VaK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1631:
+    hwtype: ciscoVirtualWlc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1632:
+    hwtype: ciscoAIRAP802agn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1633:
+    hwtype: ciscoAp802Hagn
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1634:
+    hwtype: ciscoE160DP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1635:
+    hwtype: ciscoE160D
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1636:
+    hwtype: ciscoE140DP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1637:
+    hwtype: ciscoE140D
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1638:
+    hwtype: ciscoE140S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1639:
+    hwtype: ciscoASR9001
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1640:
+    hwtype: ciscoASR9922
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1641:
+    hwtype: cat385048P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1642:
+    hwtype: cat385024P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1643:
+    hwtype: cat385048
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1644:
+    hwtype: cat385024
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1645:
+    hwtype: cisco5760wlc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1646:
+    hwtype: ciscoVSGateway
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1647:
+    hwtype: ciscoIbiza
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1648:
+    hwtype: ciscoSkyros
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1656:
+    hwtype: ciscoAIRAP1601
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1657:
+    hwtype: ciscoAIRAP2600
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1658:
+    hwtype: ciscoCRS8SB
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1659:
+    hwtype: ciscoAIRAP2602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1660:
+    hwtype: ciscoAIRAP1602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1661:
+    hwtype: ciscoAIRAP3602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1662:
+    hwtype: ciscoAIRAP3601
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1664:
+    hwtype: ciscoAIRAP1552
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1665:
+    hwtype: ciscoAIRAP1553
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1666:
+    hwtype: ciscoNgsm3k16gepoeplus
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1667:
+    hwtype: ciscoNexus1010X
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1668:
+    hwtype: ciscoNexus1110S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1669:
+    hwtype: ciscoNexus1110X
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1670:
+    hwtype: ciscoNexus1110XL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1674:
+    hwtype: ciscoHsE300K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1675:
+    hwtype: cisco866VAEWEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1676:
+    hwtype: cisco867VAEWAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1677:
+    hwtype: cisco867VAEWEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1678:
+    hwtype: cisco867VAEPOEWAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1679:
+    hwtype: ciscoSmES3x24P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1680:
+    hwtype: ciscoSmDES3x48P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1681:
+    hwtype: ciscoOeKWaas
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1682:
+    hwtype: ciscoUcsC220
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1683:
+    hwtype: ciscoUcsC240
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1684:
+    hwtype: ciscoUcsC22
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1685:
+    hwtype: ciscoUcsC24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1686:
+    hwtype: ciscoCDScde2202s4
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1687:
+    hwtype: ciscoCDScde4604r1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1688:
+    hwtype: ciscoASR1002XC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1690:
+    hwtype: catWsC2960x48fpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1691:
+    hwtype: catWsC2960x48lpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1692:
+    hwtype: catWsC2960x48tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1693:
+    hwtype: catWsC2960x24pdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1694:
+    hwtype: catWsC2960x24tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1695:
+    hwtype: catWsC2960x48fpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1696:
+    hwtype: catWsC2960x48lpsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1697:
+    hwtype: catWsC2960x24psL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1698:
+    hwtype: catWsC2960x48tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1699:
+    hwtype: catWsC2960x24tsL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1700:
+    hwtype: catWsC2960x24psqL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1701:
+    hwtype: catWsC2960x48lpsS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1702:
+    hwtype: catWsC2960x24psS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1703:
+    hwtype: catWsC2960x48tsLL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1704:
+    hwtype: catWsC2960x24tsLL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1705:
+    hwtype: ciscoISR4441
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1706:
+    hwtype: ciscoISR4442
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1707:
+    hwtype: ciscoISR4451
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1708:
+    hwtype: ciscoISR4452
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1709:
+    hwtype: ciscoASR9912
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1710:
+    hwtype: cat3560x48U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1711:
+    hwtype: cat3560x24U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1712:
+    hwtype: cat3750x48U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1713:
+    hwtype: cat3750x24U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1714:
+    hwtype: ciscoIE20008TCGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1715:
+    hwtype: ciscoIE200016TCGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1720:
+    hwtype: ciscoIem30004SM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1721:
+    hwtype: ciscoIem30008SM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1722:
+    hwtype: cisco1783MX04S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1723:
+    hwtype: cisco1783MX08S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1724:
+    hwtype: ciscoASR901TenGigDCE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1725:
+    hwtype: ciscoASR901TenGigACE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1726:
+    hwtype: ciscoASR901TenGigDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1727:
+    hwtype: ciscoASR901TenGigAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1729:
+    hwtype: ciscoIE200016TCGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1730:
+    hwtype: ciscoIE200016TCGEP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1731:
+    hwtype: ciscoIE200016TCGNXP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1732:
+    hwtype: cat4xxxVirtualSwitch
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1733:
+    hwtype: ciscoRAIE1783BMS20CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1735:
+    hwtype: ciscoRAIE1783BMS12T4E2CGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1736:
+    hwtype: ciscoRAIE1783BMS12T4E2CGNK
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1737:
+    hwtype: ciscoMds9848512K9SM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1738:
+    hwtype: ciscoMds9710SM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1739:
+    hwtype: ciscoMds9710FM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1740:
+    hwtype: ciscoMds9710FCS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1741:
+    hwtype: ciscoMDS9250iIFSPS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1742:
+    hwtype: ciscoMDS9250iIFSDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1743:
+    hwtype: ciscoMDS9250iIFS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1744:
+    hwtype: ciscoNexus1000VH
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1745:
+    hwtype: cat38xxstack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1746:
+    hwtype: ciscoVG202XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1747:
+    hwtype: ciscoVG204XM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1748:
+    hwtype: ciscoWsC2960P48PstL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1749:
+    hwtype: ciscoWsC2960P24PcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1750:
+    hwtype: ciscoWsC2960P24LcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1751:
+    hwtype: ciscoWsC2960P48TcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1752:
+    hwtype: ciscoWsC2960P24TcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1753:
+    hwtype: ciscoWsC2960P48PstS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1754:
+    hwtype: ciscoWsC2960P24PcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1755:
+    hwtype: ciscoWsC2960P24LcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1756:
+    hwtype: ciscoWsC2960P48TcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1757:
+    hwtype: ciscoWsC2960P24TcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1762:
+    hwtype: ciscoASR9904
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1763:
+    hwtype: ciscoME2600X
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1764:
+    hwtype: ciscoPanini
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1765:
+    hwtype: ciscoC6807xl
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1767:
+    hwtype: cat385024U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1768:
+    hwtype: cat385048U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1769:
+    hwtype: ciscoVG310
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1770:
+    hwtype: ciscoVG320
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1784:
+    hwtype: ciscoC6880xle
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1796:
+    hwtype: cat45Sup8e
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1797:
+    hwtype: ciscoWsC2960XR48FpdI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1798:
+    hwtype: ciscoWsC2960XR48LpdI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1799:
+    hwtype: ciscoWsC2960XR48TdI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1800:
+    hwtype: ciscoWsC2960XR24PdI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1801:
+    hwtype: ciscoWsC2960XR24TdI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1802:
+    hwtype: ciscoWsC2960XR48FpsI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1803:
+    hwtype: ciscoWsC2960XR48LpsI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1804:
+    hwtype: ciscoWsC2960XR48TsI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1805:
+    hwtype: ciscoWsC2960XR24PsI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1806:
+    hwtype: ciscoWsC2960XR24TsI
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1817:
+    hwtype: ciscoUCSC460M4Rackserver
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1818:
+    hwtype: ciscoA901S4SGFD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1819:
+    hwtype: ciscoA901S3SGFD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1820:
+    hwtype: ciscoA901S2SGFD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1821:
+    hwtype: ciscoA901S3SGFAH
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1822:
+    hwtype: ciscoA901S2SGFAH
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1823:
+    hwtype: ciscoC365024TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1824:
+    hwtype: ciscoC365048TS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1825:
+    hwtype: ciscoC365024PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1826:
+    hwtype: ciscoC365048PS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1827:
+    hwtype: ciscoC365024TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1828:
+    hwtype: ciscoC365048TD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1829:
+    hwtype: ciscoC365024PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1830:
+    hwtype: ciscoC365048PD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1839:
+    hwtype: ciscoIE2000U4STSG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1840:
+    hwtype: ciscoIE2000U16TCGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1841:
+    hwtype: ciscoIE20008T67B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1842:
+    hwtype: ciscoIE200016T67B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1843:
+    hwtype: ciscoIE200024T67B
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1844:
+    hwtype: ciscoIE20008T67PGE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1845:
+    hwtype: ciscoIE200016T67PGE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1846:
+    hwtype: ciscoRAIE1783ZMS8TA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1847:
+    hwtype: ciscoRAIE1783ZMS16TA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1848:
+    hwtype: ciscoRAIE1783ZMS24TA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1849:
+    hwtype: ciscoRAIE1783ZMS4T4E2TGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1850:
+    hwtype: ciscoRAIE1783ZMS8T8E2TGP
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1851:
+    hwtype: ciscoNcs6008
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1852:
+    hwtype: ciscoC881K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1853:
+    hwtype: ciscoC886VaK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1854:
+    hwtype: ciscoC886VaJK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1855:
+    hwtype: ciscoC887VaK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1856:
+    hwtype: ciscoC887VaMK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1857:
+    hwtype: ciscoC888K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1858:
+    hwtype: ciscoC891FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1859:
+    hwtype: ciscoC891FwAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1860:
+    hwtype: ciscoC891FwEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1861:
+    hwtype: ciscoASR1001X
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1862:
+    hwtype: cisco1783WAP5100xK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1863:
+    hwtype: ciscoCDScde2502s5
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1864:
+    hwtype: ciscoUcsE140S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1865:
+    hwtype: ciscoNXNAM1
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1866:
+    hwtype: ciscoC6800ia48fpdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1867:
+    hwtype: ciscoC6800ia48tdL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1868:
+    hwtype: ciscoIE2000U4TG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1869:
+    hwtype: ciscoIE2000U4TSG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1870:
+    hwtype: ciscoIE2000U8TCG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1871:
+    hwtype: ciscoIE2000U16TCG
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1872:
+    hwtype: ciscoIE2000U16TCGX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1873:
+    hwtype: ciscoAIRAP3702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1874:
+    hwtype: ciscoAIRAP702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1875:
+    hwtype: ciscoAIRAP1532
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1876:
+    hwtype: ciscoEsxNAM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1877:
+    hwtype: ciscoKvmNAM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1878:
+    hwtype: ciscoHyperNAM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1879:
+    hwtype: ciscoC385024S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1880:
+    hwtype: ciscoC385012S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1881:
+    hwtype: ciscoC365048PQ
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1882:
+    hwtype: ciscoC365048TQ
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1897:
+    hwtype: ciscoASR902
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1899:
+    hwtype: ciscoME1200
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1902:
+    hwtype: ciscoVASA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1903:
+    hwtype: ciscoVASASy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1904:
+    hwtype: ciscoVASASc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1915:
+    hwtype: ciscoN9Kc9508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1916:
+    hwtype: ciscoWapAP702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1917:
+    hwtype: ciscoWapAP2602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1918:
+    hwtype: ciscoWapAP1602
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1923:
+    hwtype: ciscoN9KC93128TX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1924:
+    hwtype: ciscoN9KC9396TX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1925:
+    hwtype: ciscoN9KC9396PX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1931:
+    hwtype: ciscoUcsEN120S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1934:
+    hwtype: ciscoC68xxVirtualSwitch
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1935:
+    hwtype: ciscoISR4431
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1936:
+    hwtype: ciscoC6880x
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1937:
+    hwtype: ciscoCPT50
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1938:
+    hwtype: ciscoAIRAP2702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1940:
+    hwtype: ciscoCSE340WG32K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1941:
+    hwtype: ciscoCSE340WG32AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1942:
+    hwtype: ciscoCSE340WG32CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1943:
+    hwtype: ciscoCSE340WG32EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1944:
+    hwtype: ciscoCSE340WG32NK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1945:
+    hwtype: ciscoCSE340WM32K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1946:
+    hwtype: ciscoCSE340WM32AK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1947:
+    hwtype: ciscoCSE340WM32CK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1948:
+    hwtype: ciscoCSE340WM32EK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1949:
+    hwtype: ciscoCSE340WM32NK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1952:
+    hwtype: ciscoitpRT1081K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1953:
+    hwtype: ciscoitpRT1091FK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1954:
+    hwtype: ciscoitpPwr30WAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1955:
+    hwtype: ciscoitpPwr60WAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1956:
+    hwtype: ciscoitpPwr60WACV2
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1957:
+    hwtype: ciscoitpPwr125WAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1958:
+    hwtype: ciscoitpRT2241K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1959:
+    hwtype: ciscoitpRT2221K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1960:
+    hwtype: ciscoitpRT2241WCK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1961:
+    hwtype: ciscoitpAxpIsmSre300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1962:
+    hwtype: ciscoitpPwr2241AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1963:
+    hwtype: ciscoitpRT3211K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1964:
+    hwtype: ciscoitpRT3221K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1965:
+    hwtype: ciscoitpRT3201K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1966:
+    hwtype: ciscoitpPwrRT3201AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1967:
+    hwtype: ciscoitpPwrRT3211AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1968:
+    hwtype: ciscoitpPwrRT3211DC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1969:
+    hwtype: ciscoitpPwrRT32AC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1970:
+    hwtype: ciscoitpRpsAdptrRT3211
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1971:
+    hwtype: ciscoitpRpsAdptrRT32
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1972:
+    hwtype: ciscoitpAxpSmSre710
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1973:
+    hwtype: ciscoitpAxpSmSre910
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1996:
+    hwtype: ciscoN9Kc9516
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1997:
+    hwtype: ciscoN9Kc9504
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1998:
+    hwtype: ciscoDoorCGR1240
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.1999:
+    hwtype: ciscoISR4351
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2000:
+    hwtype: ciscoWRP500
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2008:
+    hwtype: cisco897VABK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2023:
+    hwtype: cisco819HWDCK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2026:
+    hwtype: catAIRCT57006
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2045:
+    hwtype: cisco897VAMGLTEGAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2053:
+    hwtype: cisco897VAGLTEGAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2058:
+    hwtype: cisco887VAG4GGAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2059:
+    hwtype: cisco819G4GGAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2063:
+    hwtype: ciscoIOG910WK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2064:
+    hwtype: ciscoIOG910GK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2065:
+    hwtype: ciscoIOG910K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2066:
+    hwtype: cat36xxstack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2067:
+    hwtype: cat57xxstack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2068:
+    hwtype: ciscoISR4331
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2069:
+    hwtype: ciscoIE40004TC4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2070:
+    hwtype: ciscoIE40008T4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2071:
+    hwtype: ciscoIE40008S4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2072:
+    hwtype: ciscoIE40004T4P4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2073:
+    hwtype: ciscoIE400016T4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2074:
+    hwtype: ciscoIE40004S8P4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2075:
+    hwtype: ciscoIE40008GT4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2076:
+    hwtype: ciscoIE40008GS4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2077:
+    hwtype: ciscoIE40004GC4GP4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2078:
+    hwtype: ciscoIE400016GT4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2079:
+    hwtype: ciscoIE40008GT8GP4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2080:
+    hwtype: ciscoIE40004GS8GP4GE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2081:
+    hwtype: ciscoRAIE1783HMS4C4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2082:
+    hwtype: ciscoRAIE1783HMS8T4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2083:
+    hwtype: ciscoRAIE1783HMS8S4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2084:
+    hwtype: ciscoRAIE1783HMS4T4E4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2085:
+    hwtype: ciscoRAIE1783HMS16T4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2086:
+    hwtype: ciscoRAIE1783HMS4S8E4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2087:
+    hwtype: ciscoRAIE1783HMS8TG4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2088:
+    hwtype: ciscoRAIE1783HMS8SG4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2089:
+    hwtype: ciscoRAIE1783HMS4EG8CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2090:
+    hwtype: ciscoRAIE1783HMS16TG4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2091:
+    hwtype: ciscoRAIE1783HMS8TG8EG4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2092:
+    hwtype: ciscoRAIE1783HMS4SG8EG4CGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2093:
+    hwtype: ciscoISR4321
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2094:
+    hwtype: ciscoCSE340G32K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2095:
+    hwtype: ciscoCSE340M32K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2096:
+    hwtype: ciscoSCE10000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2097:
+    hwtype: ciscoVirtualSCE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2098:
+    hwtype: ciscoASR901AC10GS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2099:
+    hwtype: ciscoASR901DC10GS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2100:
+    hwtype: ciscoASR92024SZIM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2101:
+    hwtype: ciscoASR92024TZM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2102:
+    hwtype: ciscoASR92024SZM
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2112:
+    hwtype: ciscoWallander1x1GESKU
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2113:
+    hwtype: ciscoWallander2x1GESKU
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2114:
+    hwtype: ciscoASA5506
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2115:
+    hwtype: ciscoASA5506sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2116:
+    hwtype: ciscoASA5506sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2117:
+    hwtype: ciscoASA5506W
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2118:
+    hwtype: ciscoASA5506Wsc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2119:
+    hwtype: ciscoASA5506Wsy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2120:
+    hwtype: ciscoASA5508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2121:
+    hwtype: ciscoASA5508sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2122:
+    hwtype: ciscoASA5508sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2123:
+    hwtype: ciscoASA5506K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2124:
+    hwtype: ciscoASA5506K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2125:
+    hwtype: ciscoASA5506K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2126:
+    hwtype: ciscoASA5508K7
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2127:
+    hwtype: ciscoASA5508K7sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2128:
+    hwtype: ciscoASA5508K7sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2129:
+    hwtype: ciscoAIRAP1702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2132:
+    hwtype: catwsC3560CX12pdS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2133:
+    hwtype: catwsC3560CX12tcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2134:
+    hwtype: catwsC3560CX12pcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2135:
+    hwtype: catwsC3560CX8tcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2136:
+    hwtype: catwsC3560CX8pcS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2137:
+    hwtype: catwsC2960CX8tcL
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2138:
+    hwtype: cisco2911TK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2139:
+    hwtype: ciscoSNS3495K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2140:
+    hwtype: ciscoSNS3415K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2146:
+    hwtype: ciscoAIRAP702w
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2147:
+    hwtype: ciscoAIRAP1572
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2148:
+    hwtype: cisco891x24XK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2149:
+    hwtype: ciscoUCSEN120E54
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2151:
+    hwtype: ciscoUCSEN120E108
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2154:
+    hwtype: ciscoUCSEN120E208
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2155:
+    hwtype: ciscoASR9204SZD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2156:
+    hwtype: ciscoASR9208SZ0A
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2157:
+    hwtype: ciscoASR92012CZA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2158:
+    hwtype: ciscoASR92012CZD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2159:
+    hwtype: ciscoASR9204SZA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2160:
+    hwtype: ciscoASR92010SZ0D
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2161:
+    hwtype: ciscoTSCodecG3
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2162:
+    hwtype: ciscoC385012XS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2163:
+    hwtype: ciscoC385024XS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2164:
+    hwtype: ciscoC385048XS
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2165:
+    hwtype: ciscoC385012X48U
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2166:
+    hwtype: ciscoC385024XU
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2168:
+    hwtype: ciscoRAIE1783ZMS4T4E2TGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2169:
+    hwtype: ciscoRAIE1783ZMS8T8E2TGN
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2170:
+    hwtype: cisco5520WLC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2171:
+    hwtype: cisco8540Wlc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2172:
+    hwtype: ciscoRAIE1783HMS8TG4CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2173:
+    hwtype: ciscoRAIE1783HMS8SG4CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2174:
+    hwtype: ciscoRAIE1783HMS4EG8CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2175:
+    hwtype: ciscoRAIE1783HMS16TG4CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2176:
+    hwtype: ciscoRAIE1783HMS8TG8EG4CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2177:
+    hwtype: ciscoRAIE1783HMS4SG8EG4CGR
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2178:
+    hwtype: ciscoUCSC220M4
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2179:
+    hwtype: ciscoUCSC240M4
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2180:
+    hwtype: ciscoUCSC3160
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2181:
+    hwtype: cisco1941WTK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2182:
+    hwtype: ciscoUCSC3260
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2183:
+    hwtype: ciscoUCSE160DM2K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2184:
+    hwtype: ciscoUCSE180DM2K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2185:
+    hwtype: ciscoCDScde2802s5
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2186:
+    hwtype: ciscoCDScde2802s10
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2187:
+    hwtype: ciscoCDScde2802s21
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2188:
+    hwtype: ciscoCDScde2802h0
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2189:
+    hwtype: ciscoCDScde2802h13
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2190:
+    hwtype: ciscoCDScde2802h26
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2192:
+    hwtype: cisco1941WIK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2193:
+    hwtype: ciscoFp7030K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2194:
+    hwtype: ciscoFp7050K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2195:
+    hwtype: ciscoFp7110K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2196:
+    hwtype: ciscoFp7110FiK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2197:
+    hwtype: ciscoFp7115K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2198:
+    hwtype: ciscoFp7120K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2199:
+    hwtype: ciscoFp7120FiK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2200:
+    hwtype: ciscoFp7125K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2201:
+    hwtype: ciscoFp8120K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2202:
+    hwtype: ciscoFp8130K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2203:
+    hwtype: ciscoFp8140K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2204:
+    hwtype: ciscoFp8250K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2205:
+    hwtype: ciscoFp8260K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2206:
+    hwtype: ciscoFp8270K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2207:
+    hwtype: ciscoFp8290K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2208:
+    hwtype: ciscoFp8350K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2209:
+    hwtype: ciscoFp8360K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2210:
+    hwtype: ciscoFp8370K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2211:
+    hwtype: ciscoFp8390K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2212:
+    hwtype: ciscoFs750K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2213:
+    hwtype: ciscoFs1500K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2214:
+    hwtype: ciscoFs3500K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2215:
+    hwtype: ciscoFs4000K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2216:
+    hwtype: ciscoAmp7150K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2217:
+    hwtype: ciscoAmp8050K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2218:
+    hwtype: ciscoAmp8150K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2219:
+    hwtype: ciscoAmp8350K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2220:
+    hwtype: ciscoAmp8360K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2221:
+    hwtype: ciscoAmp8370K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2222:
+    hwtype: ciscoAmp8390K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2223:
+    hwtype: ciscoFpSsl1500K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2224:
+    hwtype: ciscoFpSsl1500FiK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2225:
+    hwtype: ciscoFpSsl2000K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2226:
+    hwtype: ciscoFpSsl8200K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2227:
+    hwtype: ciscoFp7010K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2228:
+    hwtype: ciscoFp7020K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2229:
+    hwtype: cisco841Mx4XK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2230:
+    hwtype: cisco841Mx8XK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2231:
+    hwtype: ciscoC819GWLTEMNAAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2232:
+    hwtype: ciscoC819GWLTEGAEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2233:
+    hwtype: ciscoIE500012S12P10G
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2234:
+    hwtype: ciscoRAIE1783IMS28NAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2235:
+    hwtype: ciscoRAIE1783IMS28NDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2236:
+    hwtype: ciscoRAIE1783IMS28RAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2237:
+    hwtype: ciscoRAIE1783IMS28RDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2238:
+    hwtype: ciscoACIController
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2240:
+    hwtype: ciscoAIRAPIW3702
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2241:
+    hwtype: ciscoASA5506H
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2242:
+    hwtype: ciscoASA5516
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2243:
+    hwtype: ciscoASA5506Hsc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2244:
+    hwtype: ciscoASA5516sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2245:
+    hwtype: ciscoASA5506Hsy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2246:
+    hwtype: ciscoASA5516sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2248:
+    hwtype: ciscoIR829GWLTEMAAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2249:
+    hwtype: ciscoPwsX474812X48uE
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2254:
+    hwtype: ciscoRAISA1783SAD2T2Ssy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2255:
+    hwtype: ciscoRAISA1783SAD4T0Ssy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2256:
+    hwtype: ciscoISA30002C2Fsy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2257:
+    hwtype: ciscoISA30004Csy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2258:
+    hwtype: ciscoISA4000sy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2259:
+    hwtype: ciscoISA4000sc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2260:
+    hwtype: ciscoRAISA1783SAD2T2Ssc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2261:
+    hwtype: ciscoRAISA1783SAD4T0Ssc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2262:
+    hwtype: ciscoISA30002C2Fsc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2263:
+    hwtype: ciscoISA30004Csc
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2264:
+    hwtype: ciscoIOSXRv9000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2265:
+    hwtype: ciscoSNS3515K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2266:
+    hwtype: ciscoSNS3595K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2267:
+    hwtype: ciscoISA30002C2F
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2268:
+    hwtype: ciscoISA30004C
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2269:
+    hwtype: ciscoRAISA1783SAD4T0S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2270:
+    hwtype: ciscoRAISA1783SAD2T2S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2271:
+    hwtype: ciscoISA4000
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2272:
+    hwtype: ciscoC888EAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2273:
+    hwtype: ciscoC6816xle
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2274:
+    hwtype: ciscoC6832xle
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2275:
+    hwtype: ciscoC6824xle
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2276:
+    hwtype: ciscoC6840xle
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2277:
+    hwtype: cat35xxStack
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2282:
+    hwtype: ciscoNam2420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2283:
+    hwtype: ciscoNam2440
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2284:
+    hwtype: ciscoflowAgent3300
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2285:
+    hwtype: ciscoFpr9300K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2286:
+    hwtype: ciscoFpr9000SM24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2288:
+    hwtype: ciscoFpr9000SM36
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2293:
+    hwtype: ciscoFpr4140K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2294:
+    hwtype: ciscoFpr4120K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2295:
+    hwtype: ciscoFpr4110K9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2296:
+    hwtype: ciscoIE500016S12P
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2297:
+    hwtype: ciscoASA5512td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2298:
+    hwtype: ciscoASA5515td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2299:
+    hwtype: ciscoASA5525td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2300:
+    hwtype: ciscoASA5545td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2301:
+    hwtype: ciscoASA5555td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2302:
+    hwtype: ciscoASA5506td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2303:
+    hwtype: ciscoASA5506Wtd
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2304:
+    hwtype: ciscoASA5506Htd
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2305:
+    hwtype: ciscoASA5508td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2306:
+    hwtype: ciscoASA5516td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2307:
+    hwtype: ciscoPIUCSAPLK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2308:
+    hwtype: cisco899GLTEJPK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2309:
+    hwtype: cisco819GLTEMNAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2313:
+    hwtype: ciscoFpr4110SM12
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2314:
+    hwtype: ciscoFpr4120SM24
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2315:
+    hwtype: ciscoFpr4140SM36
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2317:
+    hwtype: ciscoNCS5001
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2318:
+    hwtype: ciscoNCS5002
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2319:
+    hwtype: ciscoFpvK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2320:
+    hwtype: ciscoASR901CC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2321:
+    hwtype: ciscoASR901ECC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2322:
+    hwtype: ciscoASR901DC10GCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2323:
+    hwtype: ciscoASR901EDC10GCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2324:
+    hwtype: ciscoASR901DC10GSCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2325:
+    hwtype: ciscoASR92012SZIMCC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2326:
+    hwtype: ciscoNcs4201
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2327:
+    hwtype: ciscoNcs4202
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2328:
+    hwtype: ciscoNcs4206
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2329:
+    hwtype: ciscoNcs4216
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2334:
+    hwtype: ciscoVFTD
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2340:
+    hwtype: ciscoRAIE1783IMS28GNAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2341:
+    hwtype: ciscoRAIE1783IMS28GNDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2342:
+    hwtype: ciscoRAIE1783IMS28GRAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2343:
+    hwtype: ciscoRAIE1783IMS28GRDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2344:
+    hwtype: ciscoQSFP100GCWDM4S
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2345:
+    hwtype: cisco897VAGWLTEGAEK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2346:
+    hwtype: cisco886VAGLTEGAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2347:
+    hwtype: ciscoNcs1002
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2349:
+    hwtype: ciscoNCS5508
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2352:
+    hwtype: ciscoUnifiedSipProxy
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2355:
+    hwtype: cisco898EAGLTELAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2356:
+    hwtype: cisco897VAGLTELAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2357:
+    hwtype: cisco819GWLTELACK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2358:
+    hwtype: cisco819GWLTELAQK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2359:
+    hwtype: cisco819GWLTELANK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2381:
+    hwtype: cisco899GLTELAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2382:
+    hwtype: cisco819GLTELAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2385:
+    hwtype: ciscoStealthWatch2404
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2386:
+    hwtype: ciscoStealthWatch2420
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2387:
+    hwtype: ciscoNamApp2404
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2390:
+    hwtype: ciscoASR9910
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2392:
+    hwtype: cisco819HGLTEMNAK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2393:
+    hwtype: ciscoIR829GWLTEGASK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2394:
+    hwtype: ciscoIR829GWLTEGACK9
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2397:
+    hwtype: ciscoCSP2100
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2402:
+    hwtype: ciscoNCS4216F2BSA
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2404:
+    hwtype: ciscoFpr2110td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2405:
+    hwtype: ciscoFpr2120td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2406:
+    hwtype: ciscoFpr2130td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2407:
+    hwtype: ciscoFpr2140td
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.9998:
+    hwtype: ciscoPwrC2935PoeAC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.9999:
+    hwtype: ciscoPwrC2935PoeDC
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2348:
+    hwtype: ciscoASR1001HX
+    vendor: cisco
+    napalm_os: ios
+  1.3.6.1.4.1.9.1.2444:
+    hwtype: ciscoC1111-8PLTEEA
+    vendor: cisco
+    napalm_os: ios
+
+# ONEACCESS
+  1.3.6.1.4.1.13191.1.1.1:
+    hwtype: oacOne10
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.2:
+    hwtype: oacOne20
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.3:
+    hwtype: oacOne30
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.4:
+    hwtype: oacOne40
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.5:
+    hwtype: oacOne50
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.6:
+    hwtype: oacOne60
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.7:
+    hwtype: oacOne20D
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.8:
+    hwtype: oacOne80
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.9:
+    hwtype: oacOne80XM
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.10:
+    hwtype: oacOne100
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.11:
+    hwtype: oacOne100D
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.18:
+    hwtype: oacOne180
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.20:
+    hwtype: oacOne200
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.25:
+    hwtype: oacOneCell25
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.30:
+    hwtype: oacOne300
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.40:
+    hwtype: oacOne400
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.80:
+    hwtype: oacOne800
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.100:
+    hwtype: oacPBXplug8
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.110:
+    hwtype: oacPBXplug30
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.320:
+    hwtype: oacLbb320
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.140:
+    hwtype: oacLbb140
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.1000:
+    hwtype: oacLbb4G
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.118:
+    hwtype: PBXPLUG_212
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+  1.3.6.1.4.1.13191.1.1.1120:
+    hwtype: PBXPLUG_401
+    vendor: oneaccess
+    napalm_os: oneaccess_oneos
+
+
+# WWP CIENA
+  1.3.6.1.4.1.6141.1.1:
+    hwtype: wwpLe21
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.10:
+    hwtype: wwpLe410
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.11:
+    hwtype: wwpLe3700
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.12:
+    hwtype: wwpLe4400
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.13:
+    hwtype: wwpLe211
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.14:
+    hwtype: wwpLe211H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.15:
+    hwtype: wwpLe216
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.16:
+    hwtype: wwpLe216H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.17:
+    hwtype: wwpLe218
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.18:
+    hwtype: wwpLe218H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.19:
+    hwtype: wwpLe410H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.2:
+    hwtype: wwpLe22
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.20:
+    hwtype: wwpLe22H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.21:
+    hwtype: wwpLe32H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.22:
+    hwtype: wwpLe36
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.23:
+    hwtype: wwpLe36H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.24:
+    hwtype: wwpLe217
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.25:
+    hwtype: wwpLe217H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.26:
+    hwtype: wwpLe217DC
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.27:
+    hwtype: wwpLe410DC
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.28:
+    hwtype: wwpLe317
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.29:
+    hwtype: wwpLe317H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.3:
+    hwtype: wwpLe31
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.30:
+    hwtype: wwpLe317DC
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.31:
+    hwtype: wwpLe38
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.32:
+    hwtype: wwpLe46
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.33:
+    hwtype: wwpLe46Voip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.34:
+    hwtype: wwpLe42H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.35:
+    hwtype: wwpLe42HVoip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.36:
+    hwtype: wwpLe407
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.37:
+    hwtype: wwpLe427
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.38:
+    hwtype: wwpLe307
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.39:
+    hwtype: wwpLe327
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.4:
+    hwtype: wwpLe32
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.40:
+    hwtype: wwpLe337
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.41:
+    hwtype: wwpLe22P0100
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.42:
+    hwtype: wwpLe46H
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.43:
+    hwtype: wwpLe46HVoip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.44:
+    hwtype: wwpLe42Voip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.45:
+    hwtype: wwpLe17
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.46:
+    hwtype: wwpLe17Voip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.47:
+    hwtype: wwpLe311
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.48:
+    hwtype: wwpLe38Sfp
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.49:
+    hwtype: wwpLe38SfpVoip
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.5:
+    hwtype: wwpLe41
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.6:
+    hwtype: wwpLe42
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.7:
+    hwtype: wwpLe200
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.70:
+    hwtype: wwpLe311v
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.71:
+    hwtype: wwpLe310
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.72:
+    hwtype: wwpLe135
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.8:
+    hwtype: wwpLe210
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.9:
+    hwtype: wwpLe220
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.2.1:
+    hwtype: wwpProductsMIB
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.95:
+    hwtype: ciena3932
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.96:
+    hwtype: ciena5142
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.97:
+    hwtype: ciena5160
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.98:
+    hwtype: Ciena3942
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.80:
+    hwtype: ciena5150
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.84:
+    hwtype: ciena3916
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.85:
+    hwtype: ciena3930
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+  1.3.6.1.4.1.6141.1.104:
+    hwtype: ciena3928
+    vendor: wwpacket_ciena
+    napalm_os: ciena_saos
+
+## CIENA
+  1.3.6.1.4.1.1271.1.2.7:
+    hwtype: ciena8700
+    vendor: ciena
+    napalm_os: ciena_saos
+
+  1.3.6.1.4.1.562.68.11:
+    hwtype: OME6500
+    vendor: ciena
+    napalm_os: unknown
+
+  1.3.6.1.4.1.1271.1.2.10:
+    hwtype: 5170 Packetwave Platform
+    vendor: ciena
+    napalm_os: ciena_saos
+
+## JUNIPER
+  1.3.6.1.4.1.2636.1.1.1.2.21:
+    hwtype: MX960
+    vendor: juniper
+    napalm_os: juniper 
+
+  1.3.6.1.4.1.2636.1.1.1.2.20:
+    hwtype: J6350
+    vendor: juniper
+    napalm_os: juniper 
+
+
+## NETSNMP
+  1.3.6.1.4.1.8072.3.2.3:
+    hwtype: netSNMP Solaris
+    vendor: netsnmp
+    napalm_os: unknown
+
+## HP
+  1.3.6.1.4.1.11.2.3.2.3:
+    hwtype: hp800
+    vendor: hp
+    napalm_os: unknown
+
+  1.3.6.1.4.1.11.2.3.2.5:
+    hwtype: hp9000s700
+    vendor: hp
+    napalm_os: unknown
+
+## ALBIS TECHNOLOGIES
+  1.3.6.1.4.1.1887.1.2.600:
+    hwtype: ULAF+ MCU-S V3.50
+    vendor: Albis Technologies
+    napalm_os: unknown
+
+  1.3.6.1.4.1.1887.1.2.641:
+    hwtype: ULAF+ MCU V3.10
+    vendor: Albis Technologies
+    napalm_os: unknown
+
+## ACCTON Technology
+  1.3.6.1.4.1.259.6.10.78:
+    hwtype: 24FE Standalone Switch
+    vendor: Accton Technology
+    napalm_os: unknown
+
+## Copper Mountain Networks
+  1.3.6.1.4.1.1996.1.3:
+    hwtype: cmCE200Platform
+    vendor: Copper Mountain Networks
+    napalm_os: unknown
+
+
+## Powerware systems
+  1.3.6.1.4.1.1918.2.13:
+    hwtype: SC200
+    vendor: Powerware systems
+    napalm_os: unknown
+
+
+## IDRAC generic
+  1.3.6.1.4.1.674.10892.5:
+    hwtype: IDRAC
+    vendor: generic
+    napalm_os: unknown
+

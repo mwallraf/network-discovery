@@ -1,0 +1,12 @@
+# environment variables for running the network-discovery script
+# variables in this file override the script variables
+# See the readme file to see the complete list of variables
+#
+# Rename this file to .env or map it in Docker to .env
+
+# override the default number of simultaneous SNMP polls
+FORKS=15
+
+# SET THE LIST OF HOSTS OR PREFIXES THAT SHOULD BE DISCOVERED
+DISCOVER_SUBNETS=("192.168.0.1/32 10.0.0.0/24")
+

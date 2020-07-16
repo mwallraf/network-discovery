@@ -1,0 +1,17 @@
+Store static files in this folder that should be discoverd.
++
+File with static entries that should be ignored
+
+Format of static file:
+
+Filename should end on .txt
+Each file should contiain a single IP address or hostname per line
+Lines starting with # are ignored
+
+
+Format of ignored file:
+
+Filename = static.ignore
+Each file should contiain a single IP address or hostname per line
+Lines starting with # are ignored
+

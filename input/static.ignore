@@ -1,0 +1,4 @@
+10.8.90.251 # server
+94.104.255.50 # ANT-IPSEC-01 loopback
+94.104.255.51 # NOS-IPSEC-01 loopback
+
