@@ -38,19 +38,19 @@ sycontact_credentials_map = {
 # This requires that the correct env vars are known
 ipranges = {
     "MGMT_RANGES": {
-        "network": os.environ.get("MGMT_RANGES", ""),
+        "network": os.environ.get("MGMT_RANGES", "()"),
         "function": "CES",
     },
     "DCN": {
-        "network": os.environ.get("E_DCN", ""),
+        "network": os.environ.get("E_DCN", "()"),
         "function": "DCN",
     },
     "CORE_LOOPBACK": {
-        "network": os.environ.get("E_CORE_LOOPBACK", ""),
+        "network": os.environ.get("E_CORE_LOOPBACK", "()"),
         "function": "CORE",
     },
     "P2P": {
-        "network": os.environ.get("E_P2P", ""),
+        "network": os.environ.get("E_P2P", "()"),
         "function": "CPE",
         "service": [ "CI" ]
     },
@@ -59,7 +59,8 @@ ipranges = {
 for x in ipranges:
     ipranges[x]["network"] = [
                     ipaddress.ip_network(x) for x in
-                    ipranges[x]["network"].replace("(", "").replace(")", "").replace('"', "").split(" ")
+                      ipranges[x]["network"].replace("(", "").replace(")", "").replace('"', "").split(" ")
+                    if x
                   ]
 
 

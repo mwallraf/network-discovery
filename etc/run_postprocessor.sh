@@ -29,5 +29,5 @@ export E_OUTPUT_FOLDER=${OUTPUT_FOLDER}
 
 
 # The POSTPROCESSORDIR folder is known from discover.sh
-python "${POSTPROCESSORDIR}/postprocessor.py"
+python3 "${POSTPROCESSORDIR}/postprocessor.py"
 
