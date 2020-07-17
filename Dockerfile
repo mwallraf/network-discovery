@@ -13,7 +13,6 @@ ADD . /opt/network-discovery
 ADD functions/entrypoint.sh /entrypoint.sh
 
 RUN chmod -R 755 /entrypoint.sh
-RUN chmod -R 755 /opt/network-discovery/run.sh
 RUN chmod -R 755 /opt/network-discovery/discover.sh
 
 ENTRYPOINT /entrypoint.sh
