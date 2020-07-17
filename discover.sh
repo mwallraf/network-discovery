@@ -44,9 +44,6 @@ readonly SHORT_OPTS=hvd
 # Script name
 readonly SCRIPT_NAME=${0##*/}
 
-# Postprocessor script, to generate reports
-readonly POSTPROCESSORDIR="$SCRIPTDIR/etc"
-
 # Define temp folders and other locations
 readonly HOSTSDIR="$SCRIPTDIR/hosts"
 readonly HOSTSFILE="$HOSTSDIR/hosts"
@@ -119,6 +116,11 @@ fi
 # link to the sysobj id mapping, used in postprocessor
 if [[ -z ${SNMP_SYSOBJID_MAPFILE} ]]; then
   readonly SNMP_SYSOBJID_MAPFILE="$SCRIPTDIR/etc/sysobjectid_map.yml"
+fi
+
+# the postprocessor script should be a bash script with execute permissions
+if [[ -z ${POSTPROCESSORDIR} ]]; then
+  readonly POSTPROCESSORDIR="$SCRIPTDIR/etc"
 fi
 
 # the postprocessor script should be a bash script with execute permissions
