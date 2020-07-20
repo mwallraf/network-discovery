@@ -1,8 +1,12 @@
 FROM alpine:3.12.0
 
+ARG TZ='Europe/Brussels'
+
+ENV TZ ${TZ}
+
 RUN apk update
 
-RUN apk add --no-cache bash fping net-snmp-tools nmap python3 py3-pip py3-virtualenv py3-yaml
+RUN apk add --no-cache bash fping net-snmp-tools nmap python3 py3-pip py3-virtualenv py3-yaml tzdata
 
 # Create the network-discovery folder
 RUN mkdir -p /opt/network-discovery
