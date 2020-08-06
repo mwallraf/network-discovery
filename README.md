@@ -39,7 +39,7 @@ Build + run the docker container:
 ```
 docker build --tag mwallraf/network-discovery:latest .
 
-docker run -v `pwd`/output:/opt/network-discovery/output -v `pwd`/input:/opt/network-discovery/intput -v `pwd`/env-example:/opt/network-discovery/.env --detach --name network-discovery mwallraf/network-discovery:latest
+docker run -v `pwd`/output:/opt/network-discovery/output -v `pwd`/input:/opt/network-discovery/input -v `pwd`/env-example:/opt/network-discovery/.env --detach --name network-discovery mwallraf/network-discovery:latest
 ```
 
 
