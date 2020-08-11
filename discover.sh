@@ -35,7 +35,7 @@ readonly REQUIRED_TOOLS=()
 
 # Long Options. To expect an argument for an option, just place a : (colon)
 # after the proper option flag.
-readonly LONG_OPTS=(help version force no-snmp)
+readonly LONG_OPTS=(help version force no-snmp no-nmap)
 
 # Short Options. To expect an argument for an option, just place a : (colon)
 # after the proper option flag.
@@ -51,7 +51,9 @@ readonly HOSTSFILE="$HOSTSDIR/hosts"
 readonly DISCOVERYDIR="$SCRIPTDIR/hosts/_discovery"
 readonly PINGSWEEPDIR="$DISCOVERYDIR/ping"
 readonly PINGSWEEPFILE="$DISCOVERYDIR/pingsweep.txt"
+readonly NMAPFILE="$DISCOVERYDIR/nmap.txt"
 readonly SNMPFILE="$DISCOVERYDIR/snmp.txt"
+readonly TEMPHOSTSFILE="$DISCOVERYDIR/hosts.tmp"
 
 
 # Location to FPING, SED, SNMPGET
@@ -129,6 +131,7 @@ if [[ -z ${POSTPROCESSOR} ]]; then
 fi
 
 declare NOSNMP=
+declare NONMAP=
 
 
 #echo ${DISCOVER_SUBNETS[@]}
@@ -152,6 +155,7 @@ OPTIONS:
   --help, -h              Alias help command
   --version, -v           Alias version command
   --no-snmp               Do not do SNMP scanning (default=yes)
+  --no-nmap               Do not do NMAP scanning for port 22 (default=yes)
   --force                 Don't ask for confirmation
   --                      Denotes the end of the options.  Arguments after this
                           will be handled as parameters even if they start with
@@ -192,6 +196,10 @@ function start_discovery() {
   create_dirs
   pingsweep
 
+  if [ ! ${NONMAP} ]; then
+    nmapscan
+  fi
+
   if [ ! ${NOSNMP} ]; then
     snmpscan
   fi
@@ -225,7 +233,7 @@ function start_postprocessor()
 function create_dirs()
 {
     # remove the existing temp folders:
-    rm -rf "$DISCOVERYDIR"
+    #rm -rf "$DISCOVERYDIR"
 
     # create temp folders
     mkdir -p "$HOSTSDIR"
@@ -235,25 +243,57 @@ function create_dirs()
 
 #######################################
 # generate discovery hosts file and cleanup
+# if SNMP polling is enabled then the output
+# of the SNMP result is used, otherwise
+# the ping file
 #######################################
 function cleanup()
 {
 
     echo "Save hosts file"
 
-    echo "MGMTIP:HOSTNAME:COMMUNITY:SYSOBJID:SYSCONTACT:SYSDESCR" > $HOSTSFILE
-
+    # get the SNMP results
     if [ ! ${NOSNMP} ]; then
 
       if [[ -d ${PINGSWEEPDIR} ]]; then
-        cat ${PINGSWEEPDIR}/*.snmp >> $HOSTSFILE
+        cat ${PINGSWEEPDIR}/*.snmp >> $TEMPHOSTSFILE
       fi
 
     else
 
       eval "$SED -i -e 's/\(.*\)/\1:::::/g' $PINGSWEEPFILE"
-      cat $PINGSWEEPFILE >> $HOSTSFILE
+      cat $PINGSWEEPFILE >> $TEMPHOSTSFILE
 
+    fi
+
+    # get the NMAP results
+    if [ ! ${NONMAP} ]; then
+      # add protocol info, use default port 23
+      echo "MGMTIP:HOSTNAME:COMMUNITY:SYSOBJID:SYSCONTACT:SYSDESCR:PROTO" > $HOSTSFILE
+      #eval "$SED -i -e 's/\(.*\)/\1:23/g' $TEMPHOSTSFILE"
+  
+      # merge the NMAP info
+      #if [ -s "$NMAPFILE" ]; then 
+
+        # read the TEMPHOSTSFILE line by line and check if port 22 is open
+        while IFS='' read -r line || [[ -n "$line" ]]; do
+
+          HOST=$(echo $line | cut -d":" -f1)
+          found=$(grep "$HOST," $NMAPFILE | wc -l)
+
+          if [[ $found != "0" ]]; then
+            echo "$line:22" >> $HOSTSFILE
+          else
+            echo "$line:23" >> $HOSTSFILE
+          fi
+
+        done < "$TEMPHOSTSFILE"
+
+      #fi
+
+    else
+      echo "MGMTIP:HOSTNAME:COMMUNITY:SYSOBJID:SYSCONTACT:SYSDESCR" > $HOSTSFILE
+      cat $TEMPHOSTSFILE >> $HOSTSFILE
     fi
 
     rm -rf "$DISCOVERYDIR"
@@ -304,7 +344,6 @@ function pingsweep()
     # remove duplicates
     sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n -o ${PINGSWEEPFILE} ${PINGSWEEPFILE}
 
-
     # split the sweepfile in equal chunks, base on FORKS
     total_lines=`wc -l $PINGSWEEPFILE | cut -d' ' -f1`
     ((lines_per_part=(total_lines + $FORKS - 1) / $FORKS))
@@ -313,24 +352,6 @@ function pingsweep()
 }
 
 
-
-#######################################
-# portscan function
-# TODO: not used for now
-#######################################
-#function portscan()
-#{
-#    # do a portscan and check if a host has ping or ssh enabled
-#    # this is only done on the reachable hosts
-#    rexHostname="[^/]*$"
-#    for F in $HOSTSDIR/_reachability/*.txt
-#    do
-#        HN=`echo $F | grep -oP "$rexHostname"`
-#        CMD="sudo nmap -p22-23 -n -iL $F -oG $HOSTSDIR/_protocol/$HN"
-#        #echo "$CMD"
-#        eval $CMD
-#    done
-#}
 
 
 #######################################
@@ -396,6 +417,58 @@ function snmpscan()
 
 
 
+#######################################
+# portscan function
+# TODO: not used for now
+#######################################
+
+function nmap_child()
+{
+    # runs an NMAP scan on a single hosts file f
+    # this function can be started in parallel
+    # only port 22 is checked, if not open then default 23 is used
+
+    # produces a temporary file like this:
+    #   # Nmap 7.80 scan initiated Sun Aug  9 15:41:00 2020 as: nmap -p22 -n -iL pingsweep.txt --open -oG test.nmap
+    #   Host: 192.168.0.142 ()  Status: Up
+    #   Host: 192.168.0.142 ()  Ports: 22/open/tcp//ssh///
+    #   Host: 192.168.0.206 ()  Status: Up
+    #   Host: 192.168.0.206 ()  Ports: 22/open/tcp//ssh///
+    #   # Nmap done at Sun Aug  9 15:41:00 2020 -- 10 IP addresses (10 hosts up) scanned in 0.64 seconds    
+
+    SWEEPFILE=$1
+
+    # check if file is not empty
+    if [ -s "$SWEEPFILE" ]; then
+
+      echo "  > scanning file: $SWEEPFILE"
+
+      RESULT=$(nmap -p22 -n -iL $SWEEPFILE --open -oG - | grep '22/open' | sed 's/Host: \(\S\+\).*/\1,22/' >> $NMAPFILE)
+
+    fi
+
+}
+
+function nmapscan()
+{
+    # run nmap scan on each sweepfile
+    # NMAP could replace the ping function as well but
+    # somehow gives different results
+
+    if [[ -d ${PINGSWEEPDIR} ]]; then
+      echo "Start NMAP scan"
+      for F in ${PINGSWEEPDIR}/pingsweep.*
+      do
+        nmap_child $F
+      done
+
+    fi
+
+    wait
+
+}
+
+
 
 #######################################
 #
@@ -442,6 +515,7 @@ function main() {
       v|version)    version_command; exit 0; ;;
       h|help)       help_command ;;
       no-snmp)      NOSNMP=true ;;
+      no-nmap)      NONMAP=true ;;
       force)        FORCE=true ;;
       # Errors
       ::)   err "Unexpected argument to option '$OPTARG'"; exit 2; ;;
@@ -452,6 +526,7 @@ function main() {
   done
   readonly FORCE
   readonly NOSNMP
+  readonly NONMAP
   shift $((OPTIND-1))
 
   # No more arguments -> call default command
@@ -480,4 +555,3 @@ function main() {
 # Run the script
 #######################################
 main "$@"
-

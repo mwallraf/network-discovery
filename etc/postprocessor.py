@@ -83,7 +83,7 @@ class Host(object):
     Device ID = hostname if it exists or else the IP address
     """
 
-    CSV_HEADER = [ "host", "managementip", "ip", "domainname", "community", "sysobjid", "vendor", "hwtype", "function", "service", "datasource", "napalm_driver", "sysdescr", "syscontact", "errors" ]
+    CSV_HEADER = [ "host", "managementip", "ip", "domainname", "community", "sysobjid", "vendor", "hwtype", "function", "service", "datasource", "napalm_driver", "sysdescr", "syscontact", "protocol", "errors" ]
 
     def __init__(self, categorize=True, **kwargs):
         """
@@ -109,6 +109,7 @@ class Host(object):
         self.sysobjid = kwargs.get('SYSOBJID', None)
         self.sysdescr = kwargs.get('SYSDESCR', None)
         self.syscontact = kwargs.get('SYSCONTACT', None)
+        self.protocol = kwargs.get('PROTO', None)
 
         # parameters found by the categorize function
         self.function = None    # ex: CPE|PE
@@ -141,7 +142,7 @@ class Host(object):
         #print("upsert object")
         self.ip = list(set(self.ip + hostobj.ip))
 
-        for x in [ "community", "sysobjid", "sysdescr" ]:
+        for x in [ "community", "sysobjid", "sysdescr", "protocol" ]:
             self.__dict__[x] = self.__dict__[x] or hostobj.__dict__[x]
 
         if categorize:
@@ -424,6 +425,8 @@ class HostList(list):
                 entry += "    MULTISERVICE=false"
             if host.community:
                 entry += "    snmp_community={}".format(host.community)
+            if host.protocol:
+                entry += "    PROTOCOL={}".format(",".join(host.protocol))
             if not group or not os:
                 group = "unknown"
             report.setdefault(group, [])
