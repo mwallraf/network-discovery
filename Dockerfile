@@ -6,7 +6,7 @@ ENV TZ ${TZ}
 
 RUN apk update
 
-RUN apk add --no-cache bash fping net-snmp-tools nmap python3 py3-pip py3-virtualenv py3-yaml tzdata
+RUN apk add --no-cache bash fping net-snmp-tools nmap python3 py3-pip py3-virtualenv py3-yaml tzdata procps
 
 # Create the network-discovery folder
 RUN mkdir -p /opt/network-discovery
