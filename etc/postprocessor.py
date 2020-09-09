@@ -392,6 +392,23 @@ class HostList(list):
                 print(host.tocsv())
 
 
+    def report_dns_hosts(self, filename=None):
+        """
+        Create a DNS hosts files
+        Format:
+        mgmtip    hostname   hostname.domain
+        """
+        writer = open(filename, 'w') if filename else sys.stdout
+        print("###### do not edit below this line - these entries are generated automatically ######", file=writer)
+        print("", file=writer)
+        for host in self:
+            if host.domainname:
+                host_domain = "{}.{}".format(host.host, host.domainname)
+            else:
+                host_domain = ""
+            print("{}\t{}\t{}".format(host.managementip, host.host, host_domain), file=writer)
+
+
     def report_ansible(self, filter=True, filename=None, include_unknown=False):
         """
         Create an ansible hosts file with format:
@@ -476,6 +493,7 @@ def main():
 
     hostlist.tocsv(filename=os.path.join(output_folder, "network-discovery.csv"))
     hostlist.report_ansible(filename=os.path.join(output_folder, "hosts.ansible"))
+    hostlist.report_dns_hosts(filename=os.path.join(output_folder, "hosts.dns"))
 
 
 if __name__ == '__main__':

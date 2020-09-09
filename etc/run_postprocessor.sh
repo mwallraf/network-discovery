@@ -19,6 +19,15 @@
 # to import
 # . /etc/some_file_with_env_vars
 
+# if you want to run the script directly then these are the minimal required vars
+if [[ -z $SCRIPT_FOLDER ]]; then
+  . ../.env
+  OUTPUT_FOLDER="${SCRIPT_FOLDER}/output"
+  SNMP_SYSOBJID_MAPFILE="${SCRIPT_FOLDER}/etc/sysobjectid_map.yml"
+  HOSTSFILE="${SCRIPT_FOLDER}/hosts/hosts"
+fi
+
+
 # The following environment variables are used in our postprocessor script.
 # We need to export them before they can be used in the python script
 
