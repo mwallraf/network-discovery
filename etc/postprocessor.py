@@ -17,6 +17,7 @@ import os
 import sys
 import ipaddress
 import yaml
+import re
 
 
 hostsfile = os.environ.get("E_HOSTSFILE")
@@ -392,7 +393,7 @@ class HostList(list):
                 print(host.tocsv())
 
 
-    def report_dns_hosts(self, filename=None):
+    def report_dns_hosts(self, filename=None, include_unknown=False):
         """
         Create a DNS hosts files
         Format:
@@ -402,11 +403,14 @@ class HostList(list):
         print("###### do not edit below this line - these entries are generated automatically ######", file=writer)
         print("", file=writer)
         for host in self:
+            if not host.managementip and not include_unknown:
+                continue
             if host.domainname:
                 host_domain = "{}.{}".format(host.host, host.domainname)
             else:
                 host_domain = ""
             print("{}\t{}\t{}".format(host.managementip, host.host, host_domain), file=writer)
+
 
 
     def report_ansible(self, filter=True, filename=None, include_unknown=False):
