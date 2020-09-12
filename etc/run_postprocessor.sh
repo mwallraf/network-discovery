@@ -40,3 +40,6 @@ export E_OUTPUT_FOLDER=${OUTPUT_FOLDER}
 # The POSTPROCESSORDIR folder is known from discover.sh
 python3 "${POSTPROCESSORDIR}/postprocessor.py"
 
+echo "remove output files older than ${MAXAGE_OUTPUFILES} days"
+find ${OUTPUT_FOLDER}/* -mtime +${MAXAGE_OUTPUFILES} -exec rm {} \;
+

@@ -20,5 +20,7 @@ RUN chmod -R 755 /entrypoint.sh
 RUN chmod -R 755 /opt/network-discovery/discover.sh
 RUN chmod -R 755 /opt/network-discovery/etc/run_postprocessor.sh
 
+WORKDIR /opt/network-discovery
+
 ENTRYPOINT /entrypoint.sh
 

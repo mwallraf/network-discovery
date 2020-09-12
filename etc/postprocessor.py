@@ -99,6 +99,8 @@ class Host(object):
             domainname = ".".join(hostname.split(".")[1:]).lower()
             hostname = hostname.split(".")[0]
 
+        self.autocategorize = categorize
+
         # parameters passed via commandline, found in the discovery hosts file
         self.host = hostname.lower() if hostname else kwargs["MGMTIP"]
         self.domainname = domainname
@@ -129,13 +131,13 @@ class Host(object):
                 self.hwtype = sysobjid_mapping["sysobjid_map"][self.sysobjid]["hwtype"]
                 self.napalm_driver = sysobjid_mapping["sysobjid_map"][self.sysobjid]["napalm_os"]
 
-        if categorize:
+        if self.autocategorize:
             self.categorize()
 
         self.set_credentials()
 
 
-    def upsert(self, hostobj, categorize=True):
+    def upsert(self, hostobj):
         """
         Used for merging two hosts, the extra parameters of the
         new hostobj are added to the existing host
@@ -146,7 +148,7 @@ class Host(object):
         for x in [ "community", "sysobjid", "sysdescr", "protocol" ]:
             self.__dict__[x] = self.__dict__[x] or hostobj.__dict__[x]
 
-        if categorize:
+        if self.autocategorize:
             self.categorize()
 
         self.set_credentials()
